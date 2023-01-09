@@ -1,0 +1,75 @@
+Giá niêm yết (VNĐ):1.202.000.000
+
+Hệ thống phanh / Brake system
+Bánh xe / Wheel: Vành hợp kim nhôm đúc 17”/ Alloy 17″
+Cỡ lốp / Tire Size: 285/70R17
+Phanh sau / Rear Brake: Phanh Đĩa / Disc brake
+Phanh trước / Front Brake: Phanh Đĩa / Disc brake
+Bánh xe / Wheel: Vành hợp kim nhôm đúc 17”/ Alloy 17″
+Cỡ lốp / Tire Size: 285/70R17
+Phanh sau / Rear Brake: Phanh Đĩa / Disc brake
+Phanh trước / Front Brake: Phanh Đĩa / Disc brake
+
+Hệ thống treo / Suspension system
+Hệ thống treo sau / Rear Suspension: Hệ thống treo sau sử dụng ống giảm xóc thể thao/ Rear suspension with shock absorbers
+Hệ thống treo trước / Front Suspension: Hệ thống treo độc lập, lo xo trụ, và ống giảm chấn/ Independent springs & tubular double acting shock absorbers
+
+Kích thước và Trọng lượng / Dimensions
+Chiều dài cơ sở / Wheelbase (mm): 3220
+Dài x Rộng x Cao / Length x Width x Height (mm): 5363 x 1873 x 2028
+Dung tích thùng nhiên liệu/ Fuel tank capacity (L): 80 Lít/ 80 litters
+Khoảng sáng gầm xe / Ground Clearance (mm): 230
+
+Mức tiêu thụ nhiên liệu (lit/100km)
+Kết hợp: 7,78
+Ngoài đô thị: 6,77
+Trong đô thị: 9,5
+
+Trang thiết bị an toàn / Safety features
+Cảm biến đỗ xe / Parking sensor: Cảm biến phía sau (Rear sensor)
+Camera lùi / Rear View Camera: Có / With
+Ga tự động / Cruise control: Có / With
+Hệ thống báo động trộm / Alarm System: Có / With
+Hệ thống Cân bằng điện tử / Electronic Stability Program (ESP): Có / With
+Hệ thống Chống bó cứng phanh & Phân phối lực phanh điện tử / ABS & EBD: Có / With
+Hệ thống giảm thiểu lật xe / Roll Stability Control (RSC): Có / With
+Hệ thống Hỗ trợ khởi hành ngang dốc / Hill launch assists: Có / With
+Hệ thống Hỗ trợ đổ đèo / Hill descent assists: Có / With
+Túi khí bên / Side Airbags: Có / With
+Túi khí phía trước / Driver & Passenger Airbags: Có / With
+Túi khí rèm dọc hai bên trần xe / Curtain Airbags: Có / With
+
+Trang thiết bị bên trong xe/ Interior
+Bản đồ / Navigation system: Có / With
+Chìa khóa thông minh / Smart keyless entry: Có / With
+Công nghệ giải trí SYNC / SYNC system: Điều khiển giọng nói / SYNC Gen 3
+Cửa kính điều khiển điện / Power Window: Có / With
+Ghế lái trước/ Front Driver Seat: Chỉnh điện 8 hướng / 8 way power
+Gương chiếu hậu trong / Interior rear view mirror: Tự động điều chỉnh 2 chế độ ngày/đêm / Electrochromatic Rear View Mirror
+Hệ thống âm thanh / Audio system: AM/FM, USB, Bluetooth, 6 loa (6 speakers)
+Hệ thống chống ồn chủ động/ Active Noise Control: Có / With
+Khởi động bằng nút bấm / Power Push Start: Có / With
+Tay lái / Steering wheel: Bọc da / Leather
+Vật liệu ghế / Seat Material: Da pha nỉ / Leather & Velour
+Điều hoà nhiệt độ / Air Conditioning: Tự động 2 vùng khí hậu/ Dual electronic ATC
+Điều khiển âm thanh trên tay lái / Audio control on Steering wheel: Có / With
+
+Trang thiết bị ngoại thất/ Exterior
+Bộ trang bị Raptor: Có / With
+Cụm đèn pha phía trước/ Headlamp: HID Projector với khả năng tự đông bật tắt bằng cảm biến ánh sáng / Auto HID projector headlamp
+Gương chiếu hậu hai bên / Side mirror: Điều chỉnh điện, gập điện / Power adjust, fold
+Đèn chạy ban ngày / Daytime running lamp: Có / With
+Đèn sương mù / Front Fog lamp: Có / With
+
+Động cơ & Tính năng Vận hành / Power and Performance
+Công suất cực đại (PS/vòng/phút) / Max power (Ps/rpm): 213 (156,7 KW) / 3750
+Dung tích xi lanh / Displacement (cc): 1996
+Gài cầu điện / Shift – on – fly: Có / with
+Hệ thống dẫn động / Drivetrain: Hai cầu / 4×4
+Hệ thống kiểm soát đường địa hình / Terrain Management System: Có / with
+Hộp số / Transmission: Số tự động 10 cấp / 10 speeds AT
+Khóa vi sai cầu sau/ Rear e-locking differential: Có / with
+Lẫy chuyển số thể thao / Paddle shift: Có / with
+Mô men xoắn cực đại (Nm/vòng/phút)/ Max torque (Nm/rpm): 500 / 1750-2000
+Trợ lực lái / Assisted Steering: Trợ lực lái điện/ EPAS
+Động cơ / Engine Type: Bi Turbo Diesel 2.0L i4 TDCi

@@ -1,0 +1,58 @@
+Giá niêm yết (VNĐ):845.000.000
+
+Động cơ và tính năng vận hành
+Động cơ: Động cơ Turbo Diesel 2.2L – TDCi, trục cam kép có làm mát khí nạp
+Loại: 4 xy lanh thằng hàng
+Dung tích xi lanh 2198
+Đường kính x Hành trình: 86 x 94.6
+Công suất cực đại (Hp/vòng/phút): 136
+Mô men xoắn cực đại (Nm/vòng/phút): 355
+Hộp số: 6 số tay
+Ly hợp: Đĩa ma sát khô, dẫn động bằng thuỷ lực
+
+Kích thước và trọng lượng
+Dài x Rộng x Cao (mm): 5820 x 1974 x 2360
+Chiều dài cơ sở (mm): 3750
+Bán kính vòng quay nhỏ nhất (m): 6.65
+Khoảng sáng gầm xe (mm): 179
+Vệt bánh sau (mm): 1704
+Vệt bánh trước (mm): 1740
+
+Hệ thống treo
+Sau: Hệ thống treo phụ thuộc dùng nhíp lá với ống giảm chấn thủy lực
+Trước: Hệ thống treo độc lập dùng lò xo xoắn và ống giảm chấn thủy lực
+
+Hệ thống phanh
+Bánh xe: Vành hợp kim đúc 16″
+Cỡ lốp: 215/75R16
+Hệ thống chống bó cứng phanh ABS: Có
+Phanh đĩa phía trước và sau: Có
+Trợ lực lái Thủy lực: Có
+Dung tích thùng nhiên liệu (L): 80
+Loại nhiên liệu sử dụng: Dầu
+
+Trang thiết bị chính
+Đèn phía trước: Đèn Halogen Projector có dải LED
+Đèn sương mù: Có
+Đèn phanh sau lắp cao: Có
+Điều hoà nhiệt độ: Có
+Hệ thống âm thanh: AM/FM, Bluetooth, cổng USB/SD, 4loa
+Màn hình trung tâm: Màn hình TFT cảm ứng 10.1″
+Tay lái tích hợp chức năng điều khiển âm thanh: Có
+Hệ thống kiểm soát hành trình: Có
+Ghế lái điều chỉnh 6 hướng có tựa tay: Có
+Các hàng ghế (2, 3, 4) ngả được: Có
+Hàng ghế 5 gập được: Có
+Vật liệu ghế: Vải
+Dây đai an toàn trang bị cho tất cả các ghế: Có
+Tựa đầu các ghế: Có
+Cửa sổ lái và phụ lái điều khiển điện: Có
+Gương chiếu hậu điều khiển điện: Có
+Khoá cửa điện trung tâm: Có
+Khóa cửa điều khiển từ xa: Có
+Tay nắm cửa hỗ trợ lên xuống: Có
+Hệ thống phân phối lực phanh điện tử (EBD): Có
+Hệ thống cân bằng điện tử (ESP): Có
+Cửa trượt mở rộng: Có
+Chắn bùn trước sau: Có
+Tiêu chuẩn khí thải: EURO Stage 5
