@@ -156,5 +156,13 @@ namespace Ford_Showroom
         {
             ContactLabelButton.ForeColor = Color.White;
         }
+
+        private void PriceBoardLabelButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Form3 PriceForm = new Form3();
+            PriceForm.ShowDialog();
+            Show();
+        }
     }
 }

@@ -325,6 +325,7 @@
             this.PriceBoardLabelButton.Size = new System.Drawing.Size(152, 41);
             this.PriceBoardLabelButton.TabIndex = 2;
             this.PriceBoardLabelButton.Text = "Bảng giá";
+            this.PriceBoardLabelButton.Click += new System.EventHandler(this.PriceBoardLabelButton_Click);
             this.PriceBoardLabelButton.MouseEnter += new System.EventHandler(this.PriceBoardLabelButton_MouseEnter);
             this.PriceBoardLabelButton.MouseLeave += new System.EventHandler(this.PriceBoardLabelButton_MouseLeave);
             // 
@@ -360,7 +361,7 @@
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(0, -2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1555, 181);
+            this.pictureBox3.Size = new System.Drawing.Size(1567, 181);
             this.pictureBox3.TabIndex = 39;
             this.pictureBox3.TabStop = false;
             // 
