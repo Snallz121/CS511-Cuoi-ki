@@ -57,7 +57,7 @@
 </h3>
 
 <h1>
-    **Đồ án được sử dụng chỉ để thực hiện đồ án cuối kì, không sử dụng thêm cho mục đích nào khác**
+    Đồ án được sử dụng chỉ để thực hiện đồ án cuối kì, không sử dụng thêm cho mục đích nào khác
 </h1>
 
 
