@@ -312,6 +312,7 @@
             this.ContactLabelButton.Size = new System.Drawing.Size(130, 41);
             this.ContactLabelButton.TabIndex = 3;
             this.ContactLabelButton.Text = "Liên hệ";
+            this.ContactLabelButton.Click += new System.EventHandler(this.ContactLabelButton_Click);
             this.ContactLabelButton.MouseEnter += new System.EventHandler(this.ContactLabelButton_MouseEnter);
             this.ContactLabelButton.MouseLeave += new System.EventHandler(this.ContactLabelButton_MouseLeave);
             // 

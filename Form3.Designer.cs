@@ -85,7 +85,7 @@
             this.CacDongXeLabel.AutoSize = true;
             this.CacDongXeLabel.Font = new System.Drawing.Font("Times New Roman", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.CacDongXeLabel.ForeColor = System.Drawing.Color.Blue;
-            this.CacDongXeLabel.Location = new System.Drawing.Point(387, 236);
+            this.CacDongXeLabel.Location = new System.Drawing.Point(392, 212);
             this.CacDongXeLabel.Name = "CacDongXeLabel";
             this.CacDongXeLabel.Size = new System.Drawing.Size(914, 162);
             this.CacDongXeLabel.TabIndex = 25;

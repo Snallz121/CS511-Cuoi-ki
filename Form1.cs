@@ -164,5 +164,13 @@ namespace Ford_Showroom
             PriceForm.ShowDialog();
             Show();
         }
+
+        private void ContactLabelButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Form4 ContactForm = new Form4();
+            ContactForm.ShowDialog();
+            Show();
+        }
     }
 }
