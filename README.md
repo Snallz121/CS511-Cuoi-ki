@@ -15,7 +15,7 @@
 - **Mã môn học:** CS511
 - **Mã lớp:** CS511.N11.KHCL
 - **Năm học:** HK1 (2022-2023)
-- **Giảng viên: ThS. Nguyễn Thị Như Vân** 
+- **Giảng viên:** ThS. Nguyễn Thị Như Vân 
 
 <h2>
    Giới thiệu nhóm
