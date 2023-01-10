@@ -56,6 +56,6 @@
   Mô tả đồ án
 </h3>
 
-
+**Đồ án được sử dụng chỉ để thực hiện đồ án cuối kì, không sử dụng thêm cho mục đích nào khác**
 
 
