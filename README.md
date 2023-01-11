@@ -15,7 +15,7 @@
 - **Mã môn học:** CS511
 - **Mã lớp:** CS511.N11.KHCL
 - **Năm học:** HK1 (2022-2023)
-- **Giảng viên:** ThS. Nguyễn Thị Như Vân 
+- **Giảng viên:** ThS. Nguyễn Như Vân 
 
 <h2>
    Giới thiệu nhóm
@@ -38,9 +38,9 @@
       </tr>
       <tr>
        <td>Huỳnh Thái Dương</td>
-       <td>?</td>
-       <td>?</td>
-       <td>?</td>  
+       <td>20520461</td>
+       <td>https://github.com/Tiger-man5321</td>
+       <td>20520461@gm.uit.edu.vn</td>  
       </tr>
 </table>
 
@@ -55,9 +55,5 @@
 <h3>
   Mô tả đồ án
 </h3>
-
-<h1>
-    Đồ án được sử dụng chỉ để thực hiện đồ án cuối kì, không sử dụng thêm cho mục đích nào khác
-</h1>
 
 
