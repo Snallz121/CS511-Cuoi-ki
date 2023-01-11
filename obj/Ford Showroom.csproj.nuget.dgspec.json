@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\CS511\\Final\\Ford Showroom\\Ford Showroom.csproj": {}
+    "D:\\Project\\CS511\\Final2\\CS511-Cuoi-ki\\Ford Showroom.csproj": {}
   },
   "projects": {
-    "D:\\Project\\CS511\\Final\\Ford Showroom\\Ford Showroom.csproj": {
+    "D:\\Project\\CS511\\Final2\\CS511-Cuoi-ki\\Ford Showroom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\CS511\\Final\\Ford Showroom\\Ford Showroom.csproj",
+        "projectUniqueName": "D:\\Project\\CS511\\Final2\\CS511-Cuoi-ki\\Ford Showroom.csproj",
         "projectName": "Ford Showroom",
-        "projectPath": "D:\\Project\\CS511\\Final\\Ford Showroom\\Ford Showroom.csproj",
+        "projectPath": "D:\\Project\\CS511\\Final2\\CS511-Cuoi-ki\\Ford Showroom.csproj",
         "packagesPath": "C:\\Users\\Snallz\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\CS511\\Final\\Ford Showroom\\obj\\",
+        "outputPath": "D:\\Project\\CS511\\Final2\\CS511-Cuoi-ki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
