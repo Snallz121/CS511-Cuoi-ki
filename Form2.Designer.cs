@@ -332,20 +332,20 @@
             // ProductNameLabel
             // 
             this.ProductNameLabel.AutoSize = true;
-            this.ProductNameLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ProductNameLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ProductNameLabel.Location = new System.Drawing.Point(359, 283);
             this.ProductNameLabel.Name = "ProductNameLabel";
-            this.ProductNameLabel.Size = new System.Drawing.Size(283, 36);
+            this.ProductNameLabel.Size = new System.Drawing.Size(260, 36);
             this.ProductNameLabel.TabIndex = 35;
             this.ProductNameLabel.Text = "ProductNameLabel";
             // 
             // MoneyNeedToPayLabel
             // 
             this.MoneyNeedToPayLabel.AutoSize = true;
-            this.MoneyNeedToPayLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MoneyNeedToPayLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.MoneyNeedToPayLabel.Location = new System.Drawing.Point(359, 341);
             this.MoneyNeedToPayLabel.Name = "MoneyNeedToPayLabel";
-            this.MoneyNeedToPayLabel.Size = new System.Drawing.Size(211, 36);
+            this.MoneyNeedToPayLabel.Size = new System.Drawing.Size(205, 36);
             this.MoneyNeedToPayLabel.TabIndex = 34;
             this.MoneyNeedToPayLabel.Text = "Money + VND";
             // 
