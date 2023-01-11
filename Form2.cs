@@ -21,5 +21,34 @@ namespace Ford_Showroom
         {
             this.Close();
         }
+
+        private void BuyButton_Click(object sender, EventArgs e)
+        {
+            BuyPanel.Visible = true;
+        }
+
+        private void BuyPanelExitButton_Click(object sender, EventArgs e)
+        {
+            BuyPanel.Visible = false;
+            CusNameTextBox.Text = "";
+            CusAddTextBox.Text = "";
+            CusTelTextBox.Text = "";
+        }
+
+        private void CusTelTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void CusNameTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

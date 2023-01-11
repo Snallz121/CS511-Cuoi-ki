@@ -46,7 +46,7 @@
             this.MoneyLabel = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BuyButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -54,6 +54,20 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.BuyPanel = new System.Windows.Forms.Panel();
+            this.ProductNameLabel = new System.Windows.Forms.Label();
+            this.MoneyNeedToPayLabel = new System.Windows.Forms.Label();
+            this.CusTelTextBox = new System.Windows.Forms.TextBox();
+            this.CusAddTextBox = new System.Windows.Forms.TextBox();
+            this.CusNameTextBox = new System.Windows.Forms.TextBox();
+            this.PanelBuyButton = new System.Windows.Forms.Button();
+            this.ThanhTienLabel = new System.Windows.Forms.Label();
+            this.MatHangLabel = new System.Windows.Forms.Label();
+            this.SDTLabel = new System.Windows.Forms.Label();
+            this.DiaChiLabel = new System.Windows.Forms.Label();
+            this.TenKHLabel = new System.Windows.Forms.Label();
+            this.DatHangLabel = new System.Windows.Forms.Label();
+            this.BuyPanelExitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CarTypeFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -61,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.BuyPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // CarTypeFormPictureBox
@@ -220,14 +235,15 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Hình ảnh xe trong thực tế";
             // 
-            // button1
+            // BuyButton
             // 
-            this.button1.Location = new System.Drawing.Point(247, 642);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(262, 87);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Mua xe";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BuyButton.Location = new System.Drawing.Point(247, 642);
+            this.BuyButton.Name = "BuyButton";
+            this.BuyButton.Size = new System.Drawing.Size(262, 87);
+            this.BuyButton.TabIndex = 19;
+            this.BuyButton.Text = "Mua xe";
+            this.BuyButton.UseVisualStyleBackColor = true;
+            this.BuyButton.Click += new System.EventHandler(this.BuyButton_Click);
             // 
             // ExitButton
             // 
@@ -291,14 +307,166 @@
             this.pictureBox7.TabIndex = 25;
             this.pictureBox7.TabStop = false;
             // 
+            // BuyPanel
+            // 
+            this.BuyPanel.BackColor = System.Drawing.Color.RosyBrown;
+            this.BuyPanel.Controls.Add(this.ProductNameLabel);
+            this.BuyPanel.Controls.Add(this.MoneyNeedToPayLabel);
+            this.BuyPanel.Controls.Add(this.CusTelTextBox);
+            this.BuyPanel.Controls.Add(this.CusAddTextBox);
+            this.BuyPanel.Controls.Add(this.CusNameTextBox);
+            this.BuyPanel.Controls.Add(this.PanelBuyButton);
+            this.BuyPanel.Controls.Add(this.ThanhTienLabel);
+            this.BuyPanel.Controls.Add(this.MatHangLabel);
+            this.BuyPanel.Controls.Add(this.SDTLabel);
+            this.BuyPanel.Controls.Add(this.DiaChiLabel);
+            this.BuyPanel.Controls.Add(this.TenKHLabel);
+            this.BuyPanel.Controls.Add(this.DatHangLabel);
+            this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
+            this.BuyPanel.Location = new System.Drawing.Point(380, 126);
+            this.BuyPanel.Name = "BuyPanel";
+            this.BuyPanel.Size = new System.Drawing.Size(876, 510);
+            this.BuyPanel.TabIndex = 28;
+            this.BuyPanel.Visible = false;
+            // 
+            // ProductNameLabel
+            // 
+            this.ProductNameLabel.AutoSize = true;
+            this.ProductNameLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ProductNameLabel.Location = new System.Drawing.Point(359, 283);
+            this.ProductNameLabel.Name = "ProductNameLabel";
+            this.ProductNameLabel.Size = new System.Drawing.Size(283, 36);
+            this.ProductNameLabel.TabIndex = 35;
+            this.ProductNameLabel.Text = "ProductNameLabel";
+            // 
+            // MoneyNeedToPayLabel
+            // 
+            this.MoneyNeedToPayLabel.AutoSize = true;
+            this.MoneyNeedToPayLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MoneyNeedToPayLabel.Location = new System.Drawing.Point(359, 341);
+            this.MoneyNeedToPayLabel.Name = "MoneyNeedToPayLabel";
+            this.MoneyNeedToPayLabel.Size = new System.Drawing.Size(211, 36);
+            this.MoneyNeedToPayLabel.TabIndex = 34;
+            this.MoneyNeedToPayLabel.Text = "Money + VND";
+            // 
+            // CusTelTextBox
+            // 
+            this.CusTelTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CusTelTextBox.Location = new System.Drawing.Point(359, 219);
+            this.CusTelTextBox.MaxLength = 10;
+            this.CusTelTextBox.Name = "CusTelTextBox";
+            this.CusTelTextBox.Size = new System.Drawing.Size(392, 40);
+            this.CusTelTextBox.TabIndex = 31;
+            this.CusTelTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CusTelTextBox_KeyPress);
+            // 
+            // CusAddTextBox
+            // 
+            this.CusAddTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CusAddTextBox.Location = new System.Drawing.Point(359, 161);
+            this.CusAddTextBox.Name = "CusAddTextBox";
+            this.CusAddTextBox.Size = new System.Drawing.Size(392, 40);
+            this.CusAddTextBox.TabIndex = 30;
+            // 
+            // CusNameTextBox
+            // 
+            this.CusNameTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CusNameTextBox.Location = new System.Drawing.Point(359, 103);
+            this.CusNameTextBox.MaxLength = 35;
+            this.CusNameTextBox.Name = "CusNameTextBox";
+            this.CusNameTextBox.Size = new System.Drawing.Size(392, 40);
+            this.CusNameTextBox.TabIndex = 29;
+            this.CusNameTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CusNameTextBox_KeyPress);
+            // 
+            // PanelBuyButton
+            // 
+            this.PanelBuyButton.Location = new System.Drawing.Point(318, 407);
+            this.PanelBuyButton.Name = "PanelBuyButton";
+            this.PanelBuyButton.Size = new System.Drawing.Size(262, 87);
+            this.PanelBuyButton.TabIndex = 28;
+            this.PanelBuyButton.Text = "Mua xe";
+            this.PanelBuyButton.UseVisualStyleBackColor = true;
+            // 
+            // ThanhTienLabel
+            // 
+            this.ThanhTienLabel.AutoSize = true;
+            this.ThanhTienLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ThanhTienLabel.Location = new System.Drawing.Point(90, 341);
+            this.ThanhTienLabel.Name = "ThanhTienLabel";
+            this.ThanhTienLabel.Size = new System.Drawing.Size(177, 36);
+            this.ThanhTienLabel.TabIndex = 27;
+            this.ThanhTienLabel.Text = "Thành tiền:";
+            // 
+            // MatHangLabel
+            // 
+            this.MatHangLabel.AutoSize = true;
+            this.MatHangLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MatHangLabel.Location = new System.Drawing.Point(90, 281);
+            this.MatHangLabel.Name = "MatHangLabel";
+            this.MatHangLabel.Size = new System.Drawing.Size(217, 36);
+            this.MatHangLabel.TabIndex = 26;
+            this.MatHangLabel.Text = "Tên mặt hàng:";
+            // 
+            // SDTLabel
+            // 
+            this.SDTLabel.AutoSize = true;
+            this.SDTLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SDTLabel.Location = new System.Drawing.Point(90, 223);
+            this.SDTLabel.Name = "SDTLabel";
+            this.SDTLabel.Size = new System.Drawing.Size(213, 36);
+            this.SDTLabel.TabIndex = 25;
+            this.SDTLabel.Text = "Số điện thoại: ";
+            // 
+            // DiaChiLabel
+            // 
+            this.DiaChiLabel.AutoSize = true;
+            this.DiaChiLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.DiaChiLabel.Location = new System.Drawing.Point(90, 160);
+            this.DiaChiLabel.Name = "DiaChiLabel";
+            this.DiaChiLabel.Size = new System.Drawing.Size(123, 36);
+            this.DiaChiLabel.TabIndex = 24;
+            this.DiaChiLabel.Text = "Địa chỉ:";
+            // 
+            // TenKHLabel
+            // 
+            this.TenKHLabel.AutoSize = true;
+            this.TenKHLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.TenKHLabel.Location = new System.Drawing.Point(90, 100);
+            this.TenKHLabel.Name = "TenKHLabel";
+            this.TenKHLabel.Size = new System.Drawing.Size(246, 36);
+            this.TenKHLabel.TabIndex = 23;
+            this.TenKHLabel.Text = "Tên khách hàng:";
+            // 
+            // DatHangLabel
+            // 
+            this.DatHangLabel.AutoSize = true;
+            this.DatHangLabel.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.DatHangLabel.Location = new System.Drawing.Point(349, 31);
+            this.DatHangLabel.Name = "DatHangLabel";
+            this.DatHangLabel.Size = new System.Drawing.Size(211, 55);
+            this.DatHangLabel.TabIndex = 22;
+            this.DatHangLabel.Text = "Đặt hàng";
+            // 
+            // BuyPanelExitButton
+            // 
+            this.BuyPanelExitButton.BackColor = System.Drawing.Color.White;
+            this.BuyPanelExitButton.BackgroundImage = global::Ford_Showroom.Properties.Resources.exit;
+            this.BuyPanelExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BuyPanelExitButton.Location = new System.Drawing.Point(0, 3);
+            this.BuyPanelExitButton.Name = "BuyPanelExitButton";
+            this.BuyPanelExitButton.Size = new System.Drawing.Size(42, 43);
+            this.BuyPanelExitButton.TabIndex = 21;
+            this.BuyPanelExitButton.UseVisualStyleBackColor = false;
+            this.BuyPanelExitButton.Click += new System.EventHandler(this.BuyPanelExitButton_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1578, 844);
+            this.Controls.Add(this.BuyPanel);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox7);
@@ -306,7 +474,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BuyButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.MoneyLabel);
@@ -335,6 +503,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.BuyPanel.ResumeLayout(false);
+            this.BuyPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,7 +530,7 @@
         private Label MoneyLabel;
         private TextBox textBox1;
         private Label label1;
-        private Button button1;
+        private Button BuyButton;
         private Button ExitButton;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
@@ -368,5 +538,19 @@
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
+        private Panel BuyPanel;
+        private Label DatHangLabel;
+        private Button BuyPanelExitButton;
+        private Button PanelBuyButton;
+        private Label ThanhTienLabel;
+        private Label MatHangLabel;
+        private Label SDTLabel;
+        private Label DiaChiLabel;
+        private Label TenKHLabel;
+        private Label MoneyNeedToPayLabel;
+        private TextBox CusTelTextBox;
+        private TextBox CusAddTextBox;
+        private TextBox CusNameTextBox;
+        private Label ProductNameLabel;
     }
 }
