@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MainFormCarPictureBox = new System.Windows.Forms.PictureBox();
             this.MainFormCarPictureBoxTimer = new System.Windows.Forms.Timer(this.components);
             this.ChooseAndCopyrightLabel = new System.Windows.Forms.Label();
@@ -107,7 +108,7 @@
             // 
             // EverestPictureBox
             // 
-            this.EverestPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.EVEREST_ORANGE_RED;
+            this.EverestPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.EVEREST_ORANGERED;
             this.EverestPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.EverestPictureBox.Location = new System.Drawing.Point(65, 1034);
             this.EverestPictureBox.Name = "EverestPictureBox";
@@ -228,7 +229,7 @@
             // 
             // RangerRaptorPictureBox
             // 
-            this.RangerRaptorPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.RANGER_RAPTOR_GREY;
+            this.RangerRaptorPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.RANGER_RAPTOR_GRAY;
             this.RangerRaptorPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.RangerRaptorPictureBox.Location = new System.Drawing.Point(302, 1522);
             this.RangerRaptorPictureBox.Name = "RangerRaptorPictureBox";
@@ -396,6 +397,7 @@
             this.Controls.Add(this.CacDongXeLabel);
             this.Controls.Add(this.ChooseAndCopyrightLabel);
             this.Controls.Add(this.MainFormCarPictureBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Showroom App";

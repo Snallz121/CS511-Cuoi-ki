@@ -20,3 +20,25 @@ D:\Project\CS511\Final\Ford Showroom\obj\Debug\net6.0-windows\Ford_Showroom.Form
 D:\Project\CS511\Final\Ford Showroom\obj\Debug\net6.0-windows\Ford_Showroom.Form3.resources
 D:\Project\CS511\Final\Ford Showroom\obj\Debug\net6.0-windows\Ford_Showroom.Form4.resources
 D:\Project\CS511\Final\Ford Showroom\obj\Debug\net6.0-windows\Ford_Showroom.Form5.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Ford Showroom.exe
+D:\Project\CS511\Final2\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Ford Showroom.deps.json
+D:\Project\CS511\Final2\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Ford Showroom.runtimeconfig.json
+D:\Project\CS511\Final2\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Ford Showroom.dll
+D:\Project\CS511\Final2\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Ford Showroom.pdb
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.csproj.AssemblyReference.cache
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford_Showroom.MainForm.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford_Showroom.Form2.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford_Showroom.Form3.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford_Showroom.Form4.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford_Showroom.Form5.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford_Showroom.Properties.Resources.resources
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.csproj.GenerateResource.cache
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.AssemblyInfoInputs.cache
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.AssemblyInfo.cs
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.csproj.CoreCompileInputs.cache
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.dll
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\refint\Ford Showroom.dll
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.pdb
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.genruntimeconfig.cache
+D:\Project\CS511\Final2\CS511-Cuoi-ki\obj\Debug\net6.0-windows\ref\Ford Showroom.dll

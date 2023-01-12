@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.CarTypeFormPictureBox = new System.Windows.Forms.PictureBox();
             this.CarTypeNameLabel = new System.Windows.Forms.Label();
             this.ColorButton1 = new System.Windows.Forms.Button();
@@ -80,9 +81,10 @@
             // 
             // CarTypeFormPictureBox
             // 
+            this.CarTypeFormPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CarTypeFormPictureBox.Location = new System.Drawing.Point(109, 30);
             this.CarTypeFormPictureBox.Name = "CarTypeFormPictureBox";
-            this.CarTypeFormPictureBox.Size = new System.Drawing.Size(557, 570);
+            this.CarTypeFormPictureBox.Size = new System.Drawing.Size(578, 570);
             this.CarTypeFormPictureBox.TabIndex = 0;
             this.CarTypeFormPictureBox.TabStop = false;
             // 
@@ -105,6 +107,7 @@
             this.ColorButton1.Size = new System.Drawing.Size(40, 34);
             this.ColorButton1.TabIndex = 3;
             this.ColorButton1.UseVisualStyleBackColor = true;
+            this.ColorButton1.Click += new System.EventHandler(this.ColorButton1_Click);
             // 
             // ColorButton2
             // 
@@ -113,6 +116,7 @@
             this.ColorButton2.Size = new System.Drawing.Size(40, 34);
             this.ColorButton2.TabIndex = 4;
             this.ColorButton2.UseVisualStyleBackColor = true;
+            this.ColorButton2.Click += new System.EventHandler(this.ColorButton2_Click);
             // 
             // ColorButton3
             // 
@@ -121,6 +125,7 @@
             this.ColorButton3.Size = new System.Drawing.Size(40, 34);
             this.ColorButton3.TabIndex = 5;
             this.ColorButton3.UseVisualStyleBackColor = true;
+            this.ColorButton3.Click += new System.EventHandler(this.ColorButton3_Click);
             // 
             // ColorButton4
             // 
@@ -129,6 +134,7 @@
             this.ColorButton4.Size = new System.Drawing.Size(40, 34);
             this.ColorButton4.TabIndex = 6;
             this.ColorButton4.UseVisualStyleBackColor = true;
+            this.ColorButton4.Click += new System.EventHandler(this.ColorButton4_Click);
             // 
             // ColorButton5
             // 
@@ -137,6 +143,7 @@
             this.ColorButton5.Size = new System.Drawing.Size(40, 34);
             this.ColorButton5.TabIndex = 7;
             this.ColorButton5.UseVisualStyleBackColor = true;
+            this.ColorButton5.Click += new System.EventHandler(this.ColorButton5_Click);
             // 
             // ColorButton6
             // 
@@ -145,6 +152,7 @@
             this.ColorButton6.Size = new System.Drawing.Size(40, 34);
             this.ColorButton6.TabIndex = 8;
             this.ColorButton6.UseVisualStyleBackColor = true;
+            this.ColorButton6.Click += new System.EventHandler(this.ColorButton6_Click);
             // 
             // EngineButton1
             // 
@@ -323,7 +331,7 @@
             this.BuyPanel.Controls.Add(this.TenKHLabel);
             this.BuyPanel.Controls.Add(this.DatHangLabel);
             this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
-            this.BuyPanel.Location = new System.Drawing.Point(380, 126);
+            this.BuyPanel.Location = new System.Drawing.Point(380, 500);
             this.BuyPanel.Name = "BuyPanel";
             this.BuyPanel.Size = new System.Drawing.Size(876, 510);
             this.BuyPanel.TabIndex = 28;
@@ -463,7 +471,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1578, 844);
             this.Controls.Add(this.BuyPanel);
@@ -493,9 +501,10 @@
             this.Controls.Add(this.ColorButton1);
             this.Controls.Add(this.CarTypeNameLabel);
             this.Controls.Add(this.CarTypeFormPictureBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Showroom App";
             ((System.ComponentModel.ISupportInitialize)(this.CarTypeFormPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

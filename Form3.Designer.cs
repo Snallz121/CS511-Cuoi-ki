@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.EverestLabel = new System.Windows.Forms.Label();
             this.EverestPictureBox = new System.Windows.Forms.PictureBox();
             this.CacDongXeLabel = new System.Windows.Forms.Label();
@@ -72,7 +73,7 @@
             // 
             // EverestPictureBox
             // 
-            this.EverestPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.EVEREST_ORANGE_RED;
+            this.EverestPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.EVEREST_ORANGERED;
             this.EverestPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.EverestPictureBox.Location = new System.Drawing.Point(521, 446);
             this.EverestPictureBox.Name = "EverestPictureBox";
@@ -198,7 +199,7 @@
             // 
             // RangerRaptorPictureBox
             // 
-            this.RangerRaptorPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.RANGER_RED_ORANGE;
+            this.RangerRaptorPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.RANGER_ORANGERED;
             this.RangerRaptorPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.RangerRaptorPictureBox.Location = new System.Drawing.Point(552, 4134);
             this.RangerRaptorPictureBox.Name = "RangerRaptorPictureBox";
@@ -229,7 +230,7 @@
             // 
             // TransitPictureBox
             // 
-            this.TransitPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.TRANSIT_GREY;
+            this.TransitPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.TRANSIT_GRAY;
             this.TransitPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.TransitPictureBox.Location = new System.Drawing.Point(554, 5204);
             this.TransitPictureBox.Name = "TransitPictureBox";
@@ -253,7 +254,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1578, 871);
             this.Controls.Add(this.TransitPricePictureBox);
             this.Controls.Add(this.TransitPictureBox);
@@ -273,9 +274,10 @@
             this.Controls.Add(this.CacDongXeLabel);
             this.Controls.Add(this.EverestPictureBox);
             this.Controls.Add(this.EverestLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Showroom App";
             ((System.ComponentModel.ISupportInitialize)(this.EverestPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EverestPricePictureBox)).EndInit();

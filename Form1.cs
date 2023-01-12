@@ -36,7 +36,7 @@ namespace Ford_Showroom
         private void EverestPictureBox_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(EverestLabel.Text, "Everest");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -44,7 +44,7 @@ namespace Ford_Showroom
         private void EverestLabel_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(EverestLabel.Text, "Everest");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -52,7 +52,7 @@ namespace Ford_Showroom
         private void ExplorerPictureBox_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(ExplorerLabel.Text, "Explorer");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -60,7 +60,7 @@ namespace Ford_Showroom
         private void ExplorerLabel_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(ExplorerLabel.Text, "Explorer");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -68,7 +68,7 @@ namespace Ford_Showroom
         private void RangerPictureBox_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(RangerLabel.Text, "Ranger");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -76,7 +76,7 @@ namespace Ford_Showroom
         private void RangerLabel_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(RangerLabel.Text, "Ranger");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -84,7 +84,7 @@ namespace Ford_Showroom
         private void RangerRaptorPictureBox_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(RangerRaptorLabel.Text, "Ranger_Raptor");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -92,7 +92,7 @@ namespace Ford_Showroom
         private void RangerRaptorLabel_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(RangerRaptorLabel.Text, "Ranger_Raptor");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -100,7 +100,7 @@ namespace Ford_Showroom
         private void TransitPictureBox_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(label10.Text, "Transit");
             CarTypeForm.ShowDialog();
             Show();
         }
@@ -108,7 +108,7 @@ namespace Ford_Showroom
         private void label10_Click(object sender, EventArgs e)
         {
             Hide();
-            Form2 CarTypeForm = new Form2();
+            Form2 CarTypeForm = new Form2(label10.Text, "Transit");
             CarTypeForm.ShowDialog();
             Show();
         }

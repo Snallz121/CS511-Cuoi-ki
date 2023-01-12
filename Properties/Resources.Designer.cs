@@ -193,9 +193,9 @@ namespace Ford_Showroom.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EVEREST_ORANGE_RED {
+        internal static System.Drawing.Bitmap EVEREST_ORANGERED {
             get {
-                object obj = ResourceManager.GetObject("EVEREST_ORANGE-RED", resourceCulture);
+                object obj = ResourceManager.GetObject("EVEREST_ORANGERED", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,6 +363,16 @@ namespace Ford_Showroom.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RANGER_ORANGERED {
+            get {
+                object obj = ResourceManager.GetObject("RANGER_ORANGERED", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RANGER_RAPTOR_BLACK {
             get {
                 object obj = ResourceManager.GetObject("RANGER_RAPTOR_BLACK", resourceCulture);
@@ -383,9 +393,9 @@ namespace Ford_Showroom.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RANGER_RAPTOR_GREY {
+        internal static System.Drawing.Bitmap RANGER_RAPTOR_GRAY {
             get {
-                object obj = ResourceManager.GetObject("RANGER_RAPTOR_GREY", resourceCulture);
+                object obj = ResourceManager.GetObject("RANGER_RAPTOR_GRAY", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,16 +416,6 @@ namespace Ford_Showroom.Properties {
         internal static System.Drawing.Bitmap RANGER_RAPTOR_WHITE {
             get {
                 object obj = ResourceManager.GetObject("RANGER_RAPTOR_WHITE", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap RANGER_RED_ORANGE {
-            get {
-                object obj = ResourceManager.GetObject("RANGER_RED-ORANGE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,6 +453,16 @@ namespace Ford_Showroom.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap test_background {
+            get {
+                object obj = ResourceManager.GetObject("test_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TRANSIT_BLACK {
             get {
                 object obj = ResourceManager.GetObject("TRANSIT_BLACK", resourceCulture);
@@ -473,9 +483,9 @@ namespace Ford_Showroom.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TRANSIT_GREY {
+        internal static System.Drawing.Bitmap TRANSIT_GRAY {
             get {
-                object obj = ResourceManager.GetObject("TRANSIT_GREY", resourceCulture);
+                object obj = ResourceManager.GetObject("TRANSIT_GRAY", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
