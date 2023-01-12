@@ -112,7 +112,35 @@ namespace Ford_Showroom
                     break;
             }
             string DataPath = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\Name.txt";
-            
+            var textfile = File.ReadAllText(DataPath);
+            string[] filestrings = textfile.Split("\n");
+            switch(filestrings.Length)
+            {
+                case 1:
+                    EngineButton1.Text = filestrings[0];
+                    EngineButton2.Visible = false;
+                    EngineButton3.Visible = false;
+                    EngineButton4.Visible = false;
+                    EngineButton5.Visible = false;
+                    EngineButton6.Visible = false;
+                    break;
+                case 4:
+                    EngineButton1.Text = filestrings[0];
+                    EngineButton2.Text = filestrings[1];
+                    EngineButton4.Text = filestrings[2];
+                    EngineButton5.Text = filestrings[3];
+                    EngineButton3.Visible = false;
+                    EngineButton6.Visible = false;
+                    break;
+                case 6:
+                    EngineButton1.Text = filestrings[0];
+                    EngineButton2.Text = filestrings[1];
+                    EngineButton3.Text = filestrings[2];
+                    EngineButton4.Text = filestrings[3];
+                    EngineButton5.Text = filestrings[4];
+                    EngineButton6.Text = filestrings[5];
+                    break;
+            }
         }
         private void ExitButton_Click(object sender, EventArgs e)
         {

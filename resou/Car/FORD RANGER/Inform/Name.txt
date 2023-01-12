@@ -1,6 +1,6 @@
-Ford Ranger XL 2.2L 4x4 MT
-Ford Ranger XLS 2.0L 4X2 MT
-Ford Ranger XLS 2.0L 4X2 AT
-Ford Ranger XLS 2.0L 4X4 AT
-Ford Ranger XLT LTD 2.0L 4X4 AT
-Ford Ranger Wildtrak 2.0L 4x4 AT
+XL 2.2L 4x4 MT
+XLS 2.0L 4X2 MT
+XLS 2.0L 4X2 AT
+XLS 2.0L 4X4 AT
+XLT LTD 2.0L 4X4 AT
+Wildtrak 2.0L 4x4 AT
