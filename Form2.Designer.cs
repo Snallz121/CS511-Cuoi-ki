@@ -45,7 +45,7 @@
             this.EngineButton6 = new System.Windows.Forms.Button();
             this.PriceCarEngineLabel = new System.Windows.Forms.Label();
             this.MoneyLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.EngineDesTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.BuyButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
@@ -224,14 +224,17 @@
             this.MoneyLabel.TabIndex = 16;
             this.MoneyLabel.Text = "0 VND";
             // 
-            // textBox1
+            // EngineDesTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(769, 449);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "Giu cho cho thong so engine";
-            this.textBox1.Size = new System.Drawing.Size(673, 383);
-            this.textBox1.TabIndex = 17;
+            this.EngineDesTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EngineDesTextBox.Location = new System.Drawing.Point(769, 449);
+            this.EngineDesTextBox.Multiline = true;
+            this.EngineDesTextBox.Name = "EngineDesTextBox";
+            this.EngineDesTextBox.PlaceholderText = "Giu cho cho thong so engine";
+            this.EngineDesTextBox.ReadOnly = true;
+            this.EngineDesTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.EngineDesTextBox.Size = new System.Drawing.Size(673, 383);
+            this.EngineDesTextBox.TabIndex = 17;
             // 
             // label1
             // 
@@ -484,7 +487,7 @@
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.BuyButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.EngineDesTextBox);
             this.Controls.Add(this.MoneyLabel);
             this.Controls.Add(this.PriceCarEngineLabel);
             this.Controls.Add(this.EngineButton6);
@@ -537,7 +540,7 @@
         private Button EngineButton6;
         private Label PriceCarEngineLabel;
         private Label MoneyLabel;
-        private TextBox textBox1;
+        private TextBox EngineDesTextBox;
         private Label label1;
         private Button BuyButton;
         private Button ExitButton;

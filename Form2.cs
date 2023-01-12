@@ -141,6 +141,11 @@ namespace Ford_Showroom
                     EngineButton6.Text = filestrings[5];
                     break;
             }
+            //Doc file text mo ta dong co
+            string DataPath1 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\" + filestrings[0].Trim() + ".txt";
+            MessageBox.Show(DataPath1);
+            var Engine1 = File.ReadAllText(DataPath1);
+            EngineDesTextBox.Text = Engine1;
         }
         private void ExitButton_Click(object sender, EventArgs e)
         {
