@@ -64,7 +64,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Ford_Showroom.Properties.Resources.info;
+            this.pictureBox2.BackgroundImage = global::Ford_Showroom.Properties.Resources.UnderTheme;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(0, 616);
             this.pictureBox2.Name = "pictureBox2";
@@ -74,11 +74,11 @@
             // 
             // ContactInfoPictureBox
             // 
-            this.ContactInfoPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.Contact;
+            this.ContactInfoPictureBox.BackgroundImage = global::Ford_Showroom.Properties.Resources.image;
             this.ContactInfoPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ContactInfoPictureBox.Location = new System.Drawing.Point(2, 184);
             this.ContactInfoPictureBox.Name = "ContactInfoPictureBox";
-            this.ContactInfoPictureBox.Size = new System.Drawing.Size(802, 431);
+            this.ContactInfoPictureBox.Size = new System.Drawing.Size(898, 405);
             this.ContactInfoPictureBox.TabIndex = 44;
             this.ContactInfoPictureBox.TabStop = false;
             // 
@@ -86,9 +86,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Ford_Showroom.Properties.Resources.logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(897, 184);
+            this.pictureBox1.Location = new System.Drawing.Point(925, 184);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(628, 431);
+            this.pictureBox1.Size = new System.Drawing.Size(596, 405);
             this.pictureBox1.TabIndex = 45;
             this.pictureBox1.TabStop = false;
             // 

@@ -283,7 +283,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Ford_Showroom.Properties.Resources.info;
+            this.pictureBox2.BackgroundImage = global::Ford_Showroom.Properties.Resources.UnderTheme;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(0, 2726);
             this.pictureBox2.Name = "pictureBox2";

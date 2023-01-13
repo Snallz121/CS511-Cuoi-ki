@@ -157,7 +157,37 @@ namespace Ford_Showroom
             var Price = File.ReadAllText(DataPath2);
             MoneyLabel.Text = Price.Split("\n")[0].Trim() + " VNĐ";
             // Setting hinh anh thuc te
+            if(StandForCarName == "None")
+            {
 
+            }
+            else
+            {
+                int tmpCount = 1;
+
+                string tmpPic = StandForCarName + tmpCount.ToString();
+                RealCarPictureBox1.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                tmpCount++;
+
+                tmpPic = StandForCarName + tmpCount.ToString();
+                RealCarPictureBox2.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                tmpCount++;
+
+                tmpPic = StandForCarName + tmpCount.ToString();
+                RealCarPictureBox3.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                tmpCount++;
+
+                tmpPic = StandForCarName + tmpCount.ToString();
+                RealCarPictureBox4.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                tmpCount++;
+
+                tmpPic = StandForCarName + tmpCount.ToString();
+                RealCarPictureBox5.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                tmpCount++;
+
+                tmpPic = StandForCarName + tmpCount.ToString();
+                RealCarPictureBox6.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+            }
         }
         private void ExitButton_Click(object sender, EventArgs e)
         {

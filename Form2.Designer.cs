@@ -46,15 +46,15 @@
             this.PriceCarEngineLabel = new System.Windows.Forms.Label();
             this.MoneyLabel = new System.Windows.Forms.Label();
             this.EngineDesTextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.ImageRealLabel = new System.Windows.Forms.Label();
             this.BuyButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.RealCarPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.RealCarPictureBox2 = new System.Windows.Forms.PictureBox();
+            this.RealCarPictureBox3 = new System.Windows.Forms.PictureBox();
+            this.RealCarPictureBox6 = new System.Windows.Forms.PictureBox();
+            this.RealCarPictureBox5 = new System.Windows.Forms.PictureBox();
+            this.RealCarPictureBox4 = new System.Windows.Forms.PictureBox();
             this.BuyPanel = new System.Windows.Forms.Panel();
             this.ProductNameLabel = new System.Windows.Forms.Label();
             this.MoneyNeedToPayLabel = new System.Windows.Forms.Label();
@@ -70,14 +70,16 @@
             this.DatHangLabel = new System.Windows.Forms.Label();
             this.BuyPanelExitButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.CarTypeFormPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox4)).BeginInit();
             this.BuyPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // CarTypeFormPictureBox
@@ -234,24 +236,24 @@
             // EngineDesTextBox
             // 
             this.EngineDesTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EngineDesTextBox.Location = new System.Drawing.Point(78, 761);
+            this.EngineDesTextBox.Location = new System.Drawing.Point(78, 698);
             this.EngineDesTextBox.Multiline = true;
             this.EngineDesTextBox.Name = "EngineDesTextBox";
             this.EngineDesTextBox.PlaceholderText = "Giu cho cho thong so engine";
             this.EngineDesTextBox.ReadOnly = true;
             this.EngineDesTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.EngineDesTextBox.Size = new System.Drawing.Size(1462, 383);
+            this.EngineDesTextBox.Size = new System.Drawing.Size(1439, 606);
             this.EngineDesTextBox.TabIndex = 17;
             // 
-            // label1
+            // ImageRealLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(504, 1362);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(645, 63);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Hình ảnh xe trong thực tế";
+            this.ImageRealLabel.AutoSize = true;
+            this.ImageRealLabel.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ImageRealLabel.Location = new System.Drawing.Point(504, 1362);
+            this.ImageRealLabel.Name = "ImageRealLabel";
+            this.ImageRealLabel.Size = new System.Drawing.Size(645, 63);
+            this.ImageRealLabel.TabIndex = 18;
+            this.ImageRealLabel.Text = "Hình ảnh xe trong thực tế";
             // 
             // BuyButton
             // 
@@ -275,55 +277,65 @@
             this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // pictureBox2
+            // RealCarPictureBox1
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox2.Location = new System.Drawing.Point(68, 1453);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(473, 502);
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
+            this.RealCarPictureBox1.BackColor = System.Drawing.Color.Silver;
+            this.RealCarPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RealCarPictureBox1.Location = new System.Drawing.Point(68, 1453);
+            this.RealCarPictureBox1.Name = "RealCarPictureBox1";
+            this.RealCarPictureBox1.Size = new System.Drawing.Size(473, 414);
+            this.RealCarPictureBox1.TabIndex = 22;
+            this.RealCarPictureBox1.TabStop = false;
             // 
-            // pictureBox3
+            // RealCarPictureBox2
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(557, 1453);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(473, 502);
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.RealCarPictureBox2.BackColor = System.Drawing.Color.Silver;
+            this.RealCarPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RealCarPictureBox2.Location = new System.Drawing.Point(557, 1453);
+            this.RealCarPictureBox2.Name = "RealCarPictureBox2";
+            this.RealCarPictureBox2.Size = new System.Drawing.Size(473, 414);
+            this.RealCarPictureBox2.TabIndex = 23;
+            this.RealCarPictureBox2.TabStop = false;
             // 
-            // pictureBox4
+            // RealCarPictureBox3
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(1046, 1453);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(473, 502);
-            this.pictureBox4.TabIndex = 24;
-            this.pictureBox4.TabStop = false;
+            this.RealCarPictureBox3.BackColor = System.Drawing.Color.Silver;
+            this.RealCarPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RealCarPictureBox3.Location = new System.Drawing.Point(1046, 1453);
+            this.RealCarPictureBox3.Name = "RealCarPictureBox3";
+            this.RealCarPictureBox3.Size = new System.Drawing.Size(473, 414);
+            this.RealCarPictureBox3.TabIndex = 24;
+            this.RealCarPictureBox3.TabStop = false;
             // 
-            // pictureBox5
+            // RealCarPictureBox6
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox5.Location = new System.Drawing.Point(1046, 1989);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(473, 502);
-            this.pictureBox5.TabIndex = 27;
-            this.pictureBox5.TabStop = false;
+            this.RealCarPictureBox6.BackColor = System.Drawing.Color.Silver;
+            this.RealCarPictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RealCarPictureBox6.Location = new System.Drawing.Point(1046, 1917);
+            this.RealCarPictureBox6.Name = "RealCarPictureBox6";
+            this.RealCarPictureBox6.Size = new System.Drawing.Size(473, 414);
+            this.RealCarPictureBox6.TabIndex = 27;
+            this.RealCarPictureBox6.TabStop = false;
             // 
-            // pictureBox6
+            // RealCarPictureBox5
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(557, 1989);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(473, 502);
-            this.pictureBox6.TabIndex = 26;
-            this.pictureBox6.TabStop = false;
+            this.RealCarPictureBox5.BackColor = System.Drawing.Color.Silver;
+            this.RealCarPictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RealCarPictureBox5.Location = new System.Drawing.Point(557, 1917);
+            this.RealCarPictureBox5.Name = "RealCarPictureBox5";
+            this.RealCarPictureBox5.Size = new System.Drawing.Size(473, 414);
+            this.RealCarPictureBox5.TabIndex = 26;
+            this.RealCarPictureBox5.TabStop = false;
             // 
-            // pictureBox7
+            // RealCarPictureBox4
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(68, 1989);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(473, 502);
-            this.pictureBox7.TabIndex = 25;
-            this.pictureBox7.TabStop = false;
+            this.RealCarPictureBox4.BackColor = System.Drawing.Color.Silver;
+            this.RealCarPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RealCarPictureBox4.Location = new System.Drawing.Point(68, 1917);
+            this.RealCarPictureBox4.Name = "RealCarPictureBox4";
+            this.RealCarPictureBox4.Size = new System.Drawing.Size(473, 414);
+            this.RealCarPictureBox4.TabIndex = 25;
+            this.RealCarPictureBox4.TabStop = false;
             // 
             // BuyPanel
             // 
@@ -341,7 +353,7 @@
             this.BuyPanel.Controls.Add(this.TenKHLabel);
             this.BuyPanel.Controls.Add(this.DatHangLabel);
             this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
-            this.BuyPanel.Location = new System.Drawing.Point(24, 183);
+            this.BuyPanel.Location = new System.Drawing.Point(334, 45);
             this.BuyPanel.Name = "BuyPanel";
             this.BuyPanel.Size = new System.Drawing.Size(876, 510);
             this.BuyPanel.TabIndex = 28;
@@ -480,11 +492,21 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(486, 674);
+            this.label2.Location = new System.Drawing.Point(488, 632);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(645, 63);
             this.label2.TabIndex = 36;
             this.label2.Text = "Hình ảnh xe trong thực tế";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Ford_Showroom.Properties.Resources.UnderTheme;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 2350);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1578, 229);
+            this.pictureBox2.TabIndex = 44;
+            this.pictureBox2.TabStop = false;
             // 
             // Form2
             // 
@@ -494,17 +516,18 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1578, 844);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.BuyPanel);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.RealCarPictureBox6);
+            this.Controls.Add(this.RealCarPictureBox5);
+            this.Controls.Add(this.RealCarPictureBox4);
+            this.Controls.Add(this.RealCarPictureBox3);
+            this.Controls.Add(this.RealCarPictureBox2);
+            this.Controls.Add(this.RealCarPictureBox1);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.BuyButton);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ImageRealLabel);
             this.Controls.Add(this.EngineDesTextBox);
             this.Controls.Add(this.MoneyLabel);
             this.Controls.Add(this.PriceCarEngineLabel);
@@ -527,14 +550,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Showroom App";
             ((System.ComponentModel.ISupportInitialize)(this.CarTypeFormPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox4)).EndInit();
             this.BuyPanel.ResumeLayout(false);
             this.BuyPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -559,15 +583,15 @@
         private Label PriceCarEngineLabel;
         private Label MoneyLabel;
         private TextBox EngineDesTextBox;
-        private Label label1;
+        private Label ImageRealLabel;
         private Button BuyButton;
         private Button ExitButton;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox6;
-        private PictureBox pictureBox7;
+        private PictureBox RealCarPictureBox1;
+        private PictureBox RealCarPictureBox2;
+        private PictureBox RealCarPictureBox3;
+        private PictureBox RealCarPictureBox6;
+        private PictureBox RealCarPictureBox5;
+        private PictureBox RealCarPictureBox4;
         private Panel BuyPanel;
         private Label DatHangLabel;
         private Button BuyPanelExitButton;
@@ -583,5 +607,6 @@
         private TextBox CusNameTextBox;
         private Label ProductNameLabel;
         private Label label2;
+        private PictureBox pictureBox2;
     }
 }
