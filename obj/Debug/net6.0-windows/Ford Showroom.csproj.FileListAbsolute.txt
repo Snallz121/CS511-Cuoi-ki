@@ -64,3 +64,10 @@ D:\Project\CS511\Final\CS511-Cuoi-ki\obj\Debug\net6.0-windows\refint\Ford Showro
 D:\Project\CS511\Final\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.pdb
 D:\Project\CS511\Final\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.genruntimeconfig.cache
 D:\Project\CS511\Final\CS511-Cuoi-ki\obj\Debug\net6.0-windows\ref\Ford Showroom.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Google.Apis.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Google.Apis.Gmail.v1.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Project\CS511\Final\CS511-Cuoi-ki\obj\Debug\net6.0-windows\Ford Showroom.csproj.CopyComplete

@@ -13,6 +13,14 @@ using System.Xml.Linq;
 using System.Net.Mail;
 using System.Net;
 using System.Windows.Forms.Design.Behavior;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Gmail.v1;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
+using System.IO;
+using System.Threading;
+using Google.Apis.Gmail.v1.Data;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace Ford_Showroom
 {
@@ -391,55 +399,38 @@ namespace Ford_Showroom
 
         }
         string VanMauGmail = @"D:\Project\CS511\Final\CS511-Cuoi-ki\resou\EmailSendingRegard.txt";
+
+        string Base64UrlEncode(string input)
+        {
+            var data = Encoding.UTF8.GetBytes(input);
+            return Convert.ToBase64String(data).Replace("+", "-").Replace("/", "_").Replace("=", "");
+        }
+        string[] Scopes = { GmailService.Scope.GmailSend };
+        string ApplicationName = "MailApp";
         private void PanelBuyButton_Click(object sender, EventArgs e)
         {
-            //SmtpClient Client = new SmtpClient()
-            //{
-            //    Host = "smpt.gmail.com",
-            //    Port = 587,
-            //    EnableSsl = true,
-            //    DeliveryMethod = SmtpDeliveryMethod.Network,
-            //    UseDefaultCredentials = false,
-            //    Credentials = new NetworkCredential()
-            //    {
-            //        UserName = "showroomphattaiofficialmail123@gmail.com",
-            //        Password = "cuewrxxixzocdygc"
-            //    }
-            //};
-            ////cjnjnohkdldfqyro
-            //MailAddress FromEmail = new MailAddress("showroomphattaiofficialmail123@gmail.com", "Showroom Phat Tai");
-            //MailAddress ToEmail = new MailAddress(EmailTextBox.Text.Trim(), "Customer");
-            //MailMessage Message = new MailMessage()
-            //{
-            //    From = FromEmail,
-            //    Subject = "Cảm ơn quý khách đã đăng kí báo giá tiền xe",
-            //    Body = File.ReadAllText(VanMauGmail).ToString() + "\n" + "Thông tin quý khách\n______________________________\n" + "Tên khách hàng: " + CusNameTextBox.Text + "\n" + "Địa chỉ: " + CusAddTextBox.Text + "\n" + "Số điện thoại: " + CusTelTextBox.Text + "\n" + "Email: " + EmailTextBox.Text,
-            //};
-            //MessageBox.Show(File.ReadAllText(VanMauGmail).ToString() + "\n" + "Thông tin quý khách\n______________________________\n" + "Tên khách hàng: " + CusNameTextBox.Text + "\n" + "Địa chỉ: " + CusAddTextBox.Text + "\n" + "Số điện thoại: " + CusTelTextBox.Text + "\n" + "Email: " + EmailTextBox.Text);
-            //Message.To.Add(ToEmail);
-
-            //Client.SendCompleted += Client_SendCompleted;
-            //Client.SendMailAsync(Message);
-            //try
-            //{
-            //    Client.Send(Message);
-            //    MessageBox.Show("Sent successfully", "Done");
-            //}
-            //catch(Exception ex)
-            //{
-            //    MessageBox.Show("Something wrong\n" + ex.InnerException.Message, "Error");
-            //}
+            UserCredential credential;
+            //read your credentials file
+            using (FileStream stream = new FileStream(@"D:\Project\CS511\Final\CS511-Cuoi-ki\resou\client_secret_374466624363-imgj18t178bq2a7vokrqtf1j7depa916.apps.googleusercontent.com.json", FileMode.Open, FileAccess.Read))
+            {
+                string path = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+                path = Path.Combine(path, ".credentials/gmail-dotnet-quickstart.json");
+                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(GoogleClientSecrets.Load(stream).Secrets, Scopes, "user", CancellationToken.None, new FileDataStore(path, true)).Result;
+            }
+            string tmpMail = File.ReadAllText(VanMauGmail).ToString() + "\n" + "Thông tin quý khách\n______________________________\n" + "Tên khách hàng: " + CusNameTextBox.Text + "\n" + "Địa chỉ: " + CusAddTextBox.Text + "\n" + "Số điện thoại: " + CusTelTextBox.Text + "\n" + "Email: " + EmailTextBox.Text;
+            string message = $"To: {EmailTextBox.Text.Trim()}\r\nSubject: {"Thanks for registration"}\r\nContent-Type: text/html;charset=utf-8\r\n\r\n{tmpMail}";
+            //call your gmail service
+            var service = new GmailService(new BaseClientService.Initializer() { HttpClientInitializer = credential, ApplicationName = ApplicationName });
+            var msg = new Google.Apis.Gmail.v1.Data.Message();
+            msg.Raw = Base64UrlEncode(message.ToString());
+            service.Users.Messages.Send(msg, "me").Execute();
+            MessageBox.Show("Bạn đã đăng kí thành công !");
+            CusNameTextBox.Text = "";
+            CusAddTextBox.Text = "";
+            CusTelTextBox.Text = "";
+            EmailTextBox.Text = "";
+            BuyPanel.Visible = false;
         }
-
-        //private void Client_SendCompleted(object sender, AsyncCompletedEventArgs e)
-        //{
-        //    if(e.Error != null)
-        //    {
-        //        MessageBox.Show("Error Happening \n " + e.Error.Message, "Error");
-        //        return;
-        //    }
-        //    MessageBox.Show("Send success", "Done");
-        //}
 
         private void ProductNameLabel_Click(object sender, EventArgs e)
         {
