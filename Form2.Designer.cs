@@ -162,6 +162,7 @@
             this.EngineButton1.Size = new System.Drawing.Size(171, 67);
             this.EngineButton1.TabIndex = 9;
             this.EngineButton1.UseVisualStyleBackColor = true;
+            this.EngineButton1.Click += new System.EventHandler(this.EngineButton1_Click);
             // 
             // EngineButton2
             // 
@@ -170,6 +171,7 @@
             this.EngineButton2.Size = new System.Drawing.Size(171, 67);
             this.EngineButton2.TabIndex = 10;
             this.EngineButton2.UseVisualStyleBackColor = true;
+            this.EngineButton2.Click += new System.EventHandler(this.EngineButton2_Click);
             // 
             // EngineButton3
             // 
@@ -178,6 +180,7 @@
             this.EngineButton3.Size = new System.Drawing.Size(171, 67);
             this.EngineButton3.TabIndex = 11;
             this.EngineButton3.UseVisualStyleBackColor = true;
+            this.EngineButton3.Click += new System.EventHandler(this.EngineButton3_Click);
             // 
             // EngineButton4
             // 
@@ -186,6 +189,7 @@
             this.EngineButton4.Size = new System.Drawing.Size(171, 67);
             this.EngineButton4.TabIndex = 12;
             this.EngineButton4.UseVisualStyleBackColor = true;
+            this.EngineButton4.Click += new System.EventHandler(this.EngineButton4_Click);
             // 
             // EngineButton5
             // 
@@ -194,6 +198,7 @@
             this.EngineButton5.Size = new System.Drawing.Size(171, 67);
             this.EngineButton5.TabIndex = 13;
             this.EngineButton5.UseVisualStyleBackColor = true;
+            this.EngineButton5.Click += new System.EventHandler(this.EngineButton5_Click);
             // 
             // EngineButton6
             // 
@@ -202,6 +207,7 @@
             this.EngineButton6.Size = new System.Drawing.Size(171, 67);
             this.EngineButton6.TabIndex = 14;
             this.EngineButton6.UseVisualStyleBackColor = true;
+            this.EngineButton6.Click += new System.EventHandler(this.EngineButton6_Click);
             // 
             // PriceCarEngineLabel
             // 
@@ -335,7 +341,7 @@
             this.BuyPanel.Controls.Add(this.TenKHLabel);
             this.BuyPanel.Controls.Add(this.DatHangLabel);
             this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
-            this.BuyPanel.Location = new System.Drawing.Point(334, 185);
+            this.BuyPanel.Location = new System.Drawing.Point(24, 183);
             this.BuyPanel.Name = "BuyPanel";
             this.BuyPanel.Size = new System.Drawing.Size(876, 510);
             this.BuyPanel.TabIndex = 28;

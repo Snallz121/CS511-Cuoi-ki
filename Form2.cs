@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,6 +27,8 @@ namespace Ford_Showroom
         string[] RangerRaptorColor = { "_BLACK", "_BLUE", "_GRAY", "_RED", "_WHITE" };
         string[] TransitColor = { "_BLACK", "_BROWN","_GRAY", "_RED", "_SILVER","_WHITE" };
         string[] Color1 = {};
+        string FolderName = "";
+        string StandForCarName = "";
 
         public Form2(string FullName1, string Name1)
         {
@@ -39,18 +42,23 @@ namespace Ford_Showroom
             {
                 case "Everest":
                     Color1 = EverestColor;
+                    StandForCarName = "RE";
                     break;
                 case "Explorer":
                     Color1 = ExplorerColor;
+                    StandForCarName = "REx";
                     break;
                 case "Ranger":
                     Color1 = RangerColor;
+                    StandForCarName = "RR";
                     break;
                 case "Ranger_Raptor":
                     Color1 = RangerRaptorColor;
+                    StandForCarName = "RRR";
                     break;
                 case "Transit":
                     Color1 = TransitColor;
+                    StandForCarName = "None";
                     break;
                 default:
                     break;
@@ -90,7 +98,6 @@ namespace Ford_Showroom
             CarTypeNameLabel.Text = FullName1;
 
             // Đưa tên vào các button làm option
-            string FolderName = "";
             switch (Name1)
             {
                 case "Everest":
@@ -143,13 +150,14 @@ namespace Ford_Showroom
             }
             //Doc file text mo ta dong co
             string DataPath1 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\" + filestrings[0].Trim() + ".txt";
-            MessageBox.Show(DataPath1);
             var Engine1 = File.ReadAllText(DataPath1);
             EngineDesTextBox.Text = Engine1;
             //Setting gia niem yet ban dau
             string DataPath2 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\Price.txt";
             var Price = File.ReadAllText(DataPath2);
             MoneyLabel.Text = Price.Split("\n")[0].Trim() + " VNĐ";
+            // Setting hinh anh thuc te
+
         }
         private void ExitButton_Click(object sender, EventArgs e)
         {
@@ -229,6 +237,62 @@ namespace Ford_Showroom
             string tmp = CustomGetButtonColor(ColorButton6.BackColor.ToString());
             string tmp1 = Name.ToUpper() + "_" + tmp.ToUpper();
             CarTypeFormPictureBox.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmp1.ToString());
+        }
+
+        private void EngineTextChange(string name)
+        {
+            // Engine description
+            string DataPath1 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\" + name.Trim() + ".txt";
+            var EngineText = File.ReadAllText(DataPath1);
+            EngineDesTextBox.Text = EngineText;
+            // Gia tien
+            string DataPath2 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\Name.txt";
+            var Price = File.ReadAllText(DataPath2);
+            string[] tmpNameArr = Price.Split("\n");
+            int pos = 0;
+            for(int i = 0; i < tmpNameArr.Length; i++)
+            {
+                //MessageBox.Show(tmpNameArr[i].Trim() + "\n" + name);
+                if (tmpNameArr[i].Trim() == name.Trim())
+                {
+                    pos = i;
+                    break;
+                }
+                else pos = -1;
+            }
+            string DataPath3 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\Price.txt";
+            MoneyLabel.Text = File.ReadAllText(DataPath3).Split("\n")[pos].Trim() + " VNĐ";
+        }
+        private void EngineButton1_Click(object sender, EventArgs e)
+        {
+            EngineTextChange(EngineButton1.Text);
+        }
+
+        private void EngineButton2_Click(object sender, EventArgs e)
+        {
+            EngineTextChange(EngineButton2.Text);
+        }
+
+        private void EngineButton3_Click(object sender, EventArgs e)
+        {
+            EngineTextChange(EngineButton3.Text);
+
+        }
+
+        private void EngineButton4_Click(object sender, EventArgs e)
+        {
+            EngineTextChange(EngineButton4.Text);
+
+        }
+
+        private void EngineButton5_Click(object sender, EventArgs e)
+        {
+            EngineTextChange(EngineButton5.Text);
+        }
+
+        private void EngineButton6_Click(object sender, EventArgs e)
+        {
+            EngineTextChange(EngineButton6.Text);
         }
 
         private void CusNameTextBox_KeyPress(object sender, KeyPressEventArgs e)
