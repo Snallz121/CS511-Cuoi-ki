@@ -192,5 +192,35 @@ namespace Ford_Showroom
         {
             ExplorerLabel.ForeColor = Color.Red;
         }
+
+        private void RangerLabel_MouseEnter(object sender, EventArgs e)
+        {
+            RangerLabel.ForeColor = Color.Yellow;
+        }
+
+        private void RangerLabel_MouseLeave(object sender, EventArgs e)
+        {
+            RangerLabel.ForeColor = Color.Red;
+        }
+
+        private void RangerRaptorLabel_MouseEnter(object sender, EventArgs e)
+        {
+            RangerRaptorLabel.ForeColor = Color.Yellow;
+        }
+
+        private void RangerRaptorLabel_MouseLeave(object sender, EventArgs e)
+        {
+            RangerRaptorLabel.ForeColor = Color.Red;
+        }
+
+        private void label10_MouseEnter(object sender, EventArgs e)
+        {
+            label10.ForeColor = Color.Yellow;
+        }
+
+        private void label10_MouseLeave(object sender, EventArgs e)
+        {
+            label10.ForeColor = Color.Red;
+        }
     }
 }

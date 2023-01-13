@@ -197,6 +197,8 @@
             this.RangerLabel.TabIndex = 28;
             this.RangerLabel.Text = "Ford Ranger 2023";
             this.RangerLabel.Click += new System.EventHandler(this.RangerLabel_Click);
+            this.RangerLabel.MouseEnter += new System.EventHandler(this.RangerLabel_MouseEnter);
+            this.RangerLabel.MouseLeave += new System.EventHandler(this.RangerLabel_MouseLeave);
             // 
             // RangerPictureBox
             // 
@@ -230,6 +232,8 @@
             this.RangerRaptorLabel.TabIndex = 31;
             this.RangerRaptorLabel.Text = "Ford Ranger Raptor 2023";
             this.RangerRaptorLabel.Click += new System.EventHandler(this.RangerRaptorLabel_Click);
+            this.RangerRaptorLabel.MouseEnter += new System.EventHandler(this.RangerRaptorLabel_MouseEnter);
+            this.RangerRaptorLabel.MouseLeave += new System.EventHandler(this.RangerRaptorLabel_MouseLeave);
             // 
             // RangerRaptorPictureBox
             // 
@@ -263,6 +267,8 @@
             this.label10.TabIndex = 34;
             this.label10.Text = "Ford Transit 2022";
             this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.label10.MouseEnter += new System.EventHandler(this.label10_MouseEnter);
+            this.label10.MouseLeave += new System.EventHandler(this.label10_MouseLeave);
             // 
             // TransitPictureBox
             // 
