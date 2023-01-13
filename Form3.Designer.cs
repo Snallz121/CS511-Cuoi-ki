@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.EverestLabel = new System.Windows.Forms.Label();
             this.EverestPictureBox = new System.Windows.Forms.PictureBox();
             this.CacDongXeLabel = new System.Windows.Forms.Label();
@@ -47,6 +46,7 @@
             this.TransitPricePictureBox = new System.Windows.Forms.PictureBox();
             this.TransitPictureBox = new System.Windows.Forms.PictureBox();
             this.TransitLabel = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.EverestPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EverestPricePictureBox)).BeginInit();
@@ -58,6 +58,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.RangerRaptorPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TransitPricePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TransitPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // EverestLabel
@@ -224,7 +225,7 @@
             this.TransitPricePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.TransitPricePictureBox.Location = new System.Drawing.Point(295, 5744);
             this.TransitPricePictureBox.Name = "TransitPricePictureBox";
-            this.TransitPricePictureBox.Size = new System.Drawing.Size(1199, 413);
+            this.TransitPricePictureBox.Size = new System.Drawing.Size(1199, 345);
             this.TransitPricePictureBox.TabIndex = 54;
             this.TransitPricePictureBox.TabStop = false;
             // 
@@ -249,6 +250,16 @@
             this.TransitLabel.TabIndex = 52;
             this.TransitLabel.Text = "Ford Transit 2023";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Ford_Showroom.Properties.Resources.UnderTheme;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 6100);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1578, 229);
+            this.pictureBox2.TabIndex = 55;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -256,6 +267,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1578, 871);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.TransitPricePictureBox);
             this.Controls.Add(this.TransitPictureBox);
             this.Controls.Add(this.TransitLabel);
@@ -274,7 +286,6 @@
             this.Controls.Add(this.CacDongXeLabel);
             this.Controls.Add(this.EverestPictureBox);
             this.Controls.Add(this.EverestLabel);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Showroom App";
@@ -289,6 +300,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.RangerRaptorPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TransitPricePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TransitPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,5 +326,6 @@
         private PictureBox TransitPricePictureBox;
         private PictureBox TransitPictureBox;
         private Label TransitLabel;
+        private PictureBox pictureBox2;
     }
 }

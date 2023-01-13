@@ -130,9 +130,6 @@
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Background\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RRR3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Car\FORD RANGER RAPTOR\Real\RRR3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="RE5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD EVEREST\Real\RE5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,9 +151,6 @@
   <data name="PriceExplorer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\PRICE\PriceExplorer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RRR5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Car\FORD RANGER RAPTOR\Real\RRR5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="RANGER_RAPTOR_WHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD RANGER RAPTOR\Color\RANGER_RAPTOR_WHITE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,8 +166,8 @@
   <data name="REx6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD EXPLORER\Real\REx6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Background\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RRR5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Car\FORD RANGER RAPTOR\Real\RRR5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RANGER_YELLOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD RANGER\Color\RANGER_YELLOW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +193,11 @@
   <data name="CK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Background\CK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RR6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Car\FORD RANGER\Real\RR6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UnderTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Background\UnderTheme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TRANSIT_SILVER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Car\FORD TRANSIT\Color\TRANSIT_SILVER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RR5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD RANGER\Real\RR5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +205,14 @@
   <data name="return" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Background\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Background\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TRANSIT_RED" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD TRANSIT\Color\TRANSIT_RED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PriceRanger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Car\PRICE\PriceRanger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD EVEREST\Real\RE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -246,6 +249,9 @@
   </data>
   <data name="RRR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD RANGER RAPTOR\Real\RRR1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Background\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CK2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Background\CK2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,8 +295,11 @@
   <data name="RE6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD EVEREST\Real\RE6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TRANSIT_SILVER" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Car\FORD TRANSIT\Color\TRANSIT_SILVER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RRR3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Car\FORD RANGER RAPTOR\Real\RRR3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Background\redExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Car5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Background\HomeCarIlluPictureBox\Car5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,8 +319,8 @@
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Background\info.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PriceRanger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Car\PRICE\PriceRanger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RR6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Car\FORD RANGER\Real\RR6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TRANSIT_BROWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD TRANSIT\Color\TRANSIT_BROWN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,10 +337,10 @@
   <data name="REx5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resou\Car\FORD EXPLORER\Real\REx5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Background\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Background\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="UnderTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resou\Background\UnderTheme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resou\Background\next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

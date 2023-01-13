@@ -172,5 +172,25 @@ namespace Ford_Showroom
             ContactForm.ShowDialog();
             Show();
         }
+
+        private void EverestLabel_MouseEnter(object sender, EventArgs e)
+        {
+            EverestLabel.ForeColor = Color.Yellow;
+        }
+
+        private void EverestLabel_MouseLeave(object sender, EventArgs e)
+        {
+            EverestLabel.ForeColor = Color.Red;
+        }
+
+        private void ExplorerLabel_MouseEnter(object sender, EventArgs e)
+        {
+            ExplorerLabel.ForeColor = Color.Yellow;
+        }
+
+        private void ExplorerLabel_MouseLeave(object sender, EventArgs e)
+        {
+            ExplorerLabel.ForeColor = Color.Red;
+        }
     }
 }

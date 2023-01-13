@@ -57,12 +57,10 @@
             this.RealCarPictureBox4 = new System.Windows.Forms.PictureBox();
             this.BuyPanel = new System.Windows.Forms.Panel();
             this.ProductNameLabel = new System.Windows.Forms.Label();
-            this.MoneyNeedToPayLabel = new System.Windows.Forms.Label();
             this.CusTelTextBox = new System.Windows.Forms.TextBox();
             this.CusAddTextBox = new System.Windows.Forms.TextBox();
             this.CusNameTextBox = new System.Windows.Forms.TextBox();
             this.PanelBuyButton = new System.Windows.Forms.Button();
-            this.ThanhTienLabel = new System.Windows.Forms.Label();
             this.MatHangLabel = new System.Windows.Forms.Label();
             this.SDTLabel = new System.Windows.Forms.Label();
             this.DiaChiLabel = new System.Windows.Forms.Label();
@@ -168,7 +166,7 @@
             // 
             // EngineButton2
             // 
-            this.EngineButton2.Location = new System.Drawing.Point(1010, 205);
+            this.EngineButton2.Location = new System.Drawing.Point(946, 205);
             this.EngineButton2.Name = "EngineButton2";
             this.EngineButton2.Size = new System.Drawing.Size(171, 67);
             this.EngineButton2.TabIndex = 10;
@@ -177,7 +175,7 @@
             // 
             // EngineButton3
             // 
-            this.EngineButton3.Location = new System.Drawing.Point(1271, 205);
+            this.EngineButton3.Location = new System.Drawing.Point(1123, 205);
             this.EngineButton3.Name = "EngineButton3";
             this.EngineButton3.Size = new System.Drawing.Size(171, 67);
             this.EngineButton3.TabIndex = 11;
@@ -186,7 +184,7 @@
             // 
             // EngineButton4
             // 
-            this.EngineButton4.Location = new System.Drawing.Point(769, 307);
+            this.EngineButton4.Location = new System.Drawing.Point(769, 278);
             this.EngineButton4.Name = "EngineButton4";
             this.EngineButton4.Size = new System.Drawing.Size(171, 67);
             this.EngineButton4.TabIndex = 12;
@@ -195,7 +193,7 @@
             // 
             // EngineButton5
             // 
-            this.EngineButton5.Location = new System.Drawing.Point(1010, 307);
+            this.EngineButton5.Location = new System.Drawing.Point(946, 278);
             this.EngineButton5.Name = "EngineButton5";
             this.EngineButton5.Size = new System.Drawing.Size(171, 67);
             this.EngineButton5.TabIndex = 13;
@@ -204,7 +202,7 @@
             // 
             // EngineButton6
             // 
-            this.EngineButton6.Location = new System.Drawing.Point(1271, 307);
+            this.EngineButton6.Location = new System.Drawing.Point(1123, 278);
             this.EngineButton6.Name = "EngineButton6";
             this.EngineButton6.Size = new System.Drawing.Size(171, 67);
             this.EngineButton6.TabIndex = 14;
@@ -216,7 +214,7 @@
             this.PriceCarEngineLabel.AutoSize = true;
             this.PriceCarEngineLabel.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.PriceCarEngineLabel.ForeColor = System.Drawing.Color.Red;
-            this.PriceCarEngineLabel.Location = new System.Drawing.Point(769, 405);
+            this.PriceCarEngineLabel.Location = new System.Drawing.Point(769, 372);
             this.PriceCarEngineLabel.Name = "PriceCarEngineLabel";
             this.PriceCarEngineLabel.Size = new System.Drawing.Size(222, 41);
             this.PriceCarEngineLabel.TabIndex = 15;
@@ -227,7 +225,7 @@
             this.MoneyLabel.AutoSize = true;
             this.MoneyLabel.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MoneyLabel.ForeColor = System.Drawing.Color.Black;
-            this.MoneyLabel.Location = new System.Drawing.Point(1010, 405);
+            this.MoneyLabel.Location = new System.Drawing.Point(997, 372);
             this.MoneyLabel.Name = "MoneyLabel";
             this.MoneyLabel.Size = new System.Drawing.Size(121, 41);
             this.MoneyLabel.TabIndex = 16;
@@ -257,11 +255,11 @@
             // 
             // BuyButton
             // 
-            this.BuyButton.Location = new System.Drawing.Point(785, 468);
+            this.BuyButton.Location = new System.Drawing.Point(785, 432);
             this.BuyButton.Name = "BuyButton";
             this.BuyButton.Size = new System.Drawing.Size(262, 87);
             this.BuyButton.TabIndex = 19;
-            this.BuyButton.Text = "Mua xe";
+            this.BuyButton.Text = "Đăng kí báo giá";
             this.BuyButton.UseVisualStyleBackColor = true;
             this.BuyButton.Click += new System.EventHandler(this.BuyButton_Click);
             // 
@@ -286,6 +284,7 @@
             this.RealCarPictureBox1.Size = new System.Drawing.Size(473, 414);
             this.RealCarPictureBox1.TabIndex = 22;
             this.RealCarPictureBox1.TabStop = false;
+            this.RealCarPictureBox1.Click += new System.EventHandler(this.RealCarPictureBox1_Click);
             // 
             // RealCarPictureBox2
             // 
@@ -296,6 +295,7 @@
             this.RealCarPictureBox2.Size = new System.Drawing.Size(473, 414);
             this.RealCarPictureBox2.TabIndex = 23;
             this.RealCarPictureBox2.TabStop = false;
+            this.RealCarPictureBox2.Click += new System.EventHandler(this.RealCarPictureBox2_Click);
             // 
             // RealCarPictureBox3
             // 
@@ -306,6 +306,7 @@
             this.RealCarPictureBox3.Size = new System.Drawing.Size(473, 414);
             this.RealCarPictureBox3.TabIndex = 24;
             this.RealCarPictureBox3.TabStop = false;
+            this.RealCarPictureBox3.Click += new System.EventHandler(this.RealCarPictureBox3_Click);
             // 
             // RealCarPictureBox6
             // 
@@ -316,6 +317,7 @@
             this.RealCarPictureBox6.Size = new System.Drawing.Size(473, 414);
             this.RealCarPictureBox6.TabIndex = 27;
             this.RealCarPictureBox6.TabStop = false;
+            this.RealCarPictureBox6.Click += new System.EventHandler(this.RealCarPictureBox6_Click);
             // 
             // RealCarPictureBox5
             // 
@@ -326,6 +328,7 @@
             this.RealCarPictureBox5.Size = new System.Drawing.Size(473, 414);
             this.RealCarPictureBox5.TabIndex = 26;
             this.RealCarPictureBox5.TabStop = false;
+            this.RealCarPictureBox5.Click += new System.EventHandler(this.RealCarPictureBox5_Click);
             // 
             // RealCarPictureBox4
             // 
@@ -336,26 +339,25 @@
             this.RealCarPictureBox4.Size = new System.Drawing.Size(473, 414);
             this.RealCarPictureBox4.TabIndex = 25;
             this.RealCarPictureBox4.TabStop = false;
+            this.RealCarPictureBox4.Click += new System.EventHandler(this.RealCarPictureBox4_Click);
             // 
             // BuyPanel
             // 
             this.BuyPanel.BackColor = System.Drawing.Color.RosyBrown;
             this.BuyPanel.Controls.Add(this.ProductNameLabel);
-            this.BuyPanel.Controls.Add(this.MoneyNeedToPayLabel);
             this.BuyPanel.Controls.Add(this.CusTelTextBox);
             this.BuyPanel.Controls.Add(this.CusAddTextBox);
             this.BuyPanel.Controls.Add(this.CusNameTextBox);
             this.BuyPanel.Controls.Add(this.PanelBuyButton);
-            this.BuyPanel.Controls.Add(this.ThanhTienLabel);
             this.BuyPanel.Controls.Add(this.MatHangLabel);
             this.BuyPanel.Controls.Add(this.SDTLabel);
             this.BuyPanel.Controls.Add(this.DiaChiLabel);
             this.BuyPanel.Controls.Add(this.TenKHLabel);
             this.BuyPanel.Controls.Add(this.DatHangLabel);
             this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
-            this.BuyPanel.Location = new System.Drawing.Point(334, 45);
+            this.BuyPanel.Location = new System.Drawing.Point(343, 169);
             this.BuyPanel.Name = "BuyPanel";
-            this.BuyPanel.Size = new System.Drawing.Size(876, 510);
+            this.BuyPanel.Size = new System.Drawing.Size(876, 460);
             this.BuyPanel.TabIndex = 28;
             this.BuyPanel.Visible = false;
             // 
@@ -368,16 +370,6 @@
             this.ProductNameLabel.Size = new System.Drawing.Size(260, 36);
             this.ProductNameLabel.TabIndex = 35;
             this.ProductNameLabel.Text = "ProductNameLabel";
-            // 
-            // MoneyNeedToPayLabel
-            // 
-            this.MoneyNeedToPayLabel.AutoSize = true;
-            this.MoneyNeedToPayLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.MoneyNeedToPayLabel.Location = new System.Drawing.Point(359, 341);
-            this.MoneyNeedToPayLabel.Name = "MoneyNeedToPayLabel";
-            this.MoneyNeedToPayLabel.Size = new System.Drawing.Size(205, 36);
-            this.MoneyNeedToPayLabel.TabIndex = 34;
-            this.MoneyNeedToPayLabel.Text = "Money + VND";
             // 
             // CusTelTextBox
             // 
@@ -409,22 +401,12 @@
             // 
             // PanelBuyButton
             // 
-            this.PanelBuyButton.Location = new System.Drawing.Point(318, 407);
+            this.PanelBuyButton.Location = new System.Drawing.Point(319, 335);
             this.PanelBuyButton.Name = "PanelBuyButton";
             this.PanelBuyButton.Size = new System.Drawing.Size(262, 87);
             this.PanelBuyButton.TabIndex = 28;
-            this.PanelBuyButton.Text = "Mua xe";
+            this.PanelBuyButton.Text = "Đăng kí";
             this.PanelBuyButton.UseVisualStyleBackColor = true;
-            // 
-            // ThanhTienLabel
-            // 
-            this.ThanhTienLabel.AutoSize = true;
-            this.ThanhTienLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ThanhTienLabel.Location = new System.Drawing.Point(90, 341);
-            this.ThanhTienLabel.Name = "ThanhTienLabel";
-            this.ThanhTienLabel.Size = new System.Drawing.Size(177, 36);
-            this.ThanhTienLabel.TabIndex = 27;
-            this.ThanhTienLabel.Text = "Thành tiền:";
             // 
             // MatHangLabel
             // 
@@ -470,11 +452,12 @@
             // 
             this.DatHangLabel.AutoSize = true;
             this.DatHangLabel.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.DatHangLabel.Location = new System.Drawing.Point(349, 31);
+            this.DatHangLabel.Location = new System.Drawing.Point(283, 26);
             this.DatHangLabel.Name = "DatHangLabel";
-            this.DatHangLabel.Size = new System.Drawing.Size(211, 55);
+            this.DatHangLabel.Size = new System.Drawing.Size(345, 55);
             this.DatHangLabel.TabIndex = 22;
-            this.DatHangLabel.Text = "Đặt hàng";
+            this.DatHangLabel.Text = "Đăng kí báo giá";
+            this.DatHangLabel.Click += new System.EventHandler(this.DatHangLabel_Click);
             // 
             // BuyPanelExitButton
             // 
@@ -492,11 +475,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(488, 632);
+            this.label2.Location = new System.Drawing.Point(680, 632);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(645, 63);
+            this.label2.Size = new System.Drawing.Size(260, 63);
             this.label2.TabIndex = 36;
-            this.label2.Text = "Hình ảnh xe trong thực tế";
+            this.label2.Text = "Thông số ";
             // 
             // pictureBox2
             // 
@@ -596,12 +579,10 @@
         private Label DatHangLabel;
         private Button BuyPanelExitButton;
         private Button PanelBuyButton;
-        private Label ThanhTienLabel;
         private Label MatHangLabel;
         private Label SDTLabel;
         private Label DiaChiLabel;
         private Label TenKHLabel;
-        private Label MoneyNeedToPayLabel;
         private TextBox CusTelTextBox;
         private TextBox CusAddTextBox;
         private TextBox CusNameTextBox;

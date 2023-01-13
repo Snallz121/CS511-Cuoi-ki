@@ -8,6 +8,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.Design;
 using System.Xml.Linq;
 
 namespace Ford_Showroom
@@ -29,6 +30,7 @@ namespace Ford_Showroom
         string[] Color1 = {};
         string FolderName = "";
         string StandForCarName = "";
+        string SBackArr = "";
 
         public Form2(string FullName1, string Name1)
         {
@@ -159,7 +161,13 @@ namespace Ford_Showroom
             // Setting hinh anh thuc te
             if(StandForCarName == "None")
             {
-
+                RealCarPictureBox1.Hide();
+                RealCarPictureBox2.Hide();
+                RealCarPictureBox3.Hide();
+                RealCarPictureBox4.Hide();
+                RealCarPictureBox5.Hide();
+                RealCarPictureBox6.Hide();
+                ImageRealLabel.Hide();
             }
             else
             {
@@ -167,25 +175,31 @@ namespace Ford_Showroom
 
                 string tmpPic = StandForCarName + tmpCount.ToString();
                 RealCarPictureBox1.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                SBackArr += tmpPic + "\t"; 
                 tmpCount++;
 
                 tmpPic = StandForCarName + tmpCount.ToString();
                 RealCarPictureBox2.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
+                SBackArr += tmpPic + "\t";
                 tmpCount++;
 
                 tmpPic = StandForCarName + tmpCount.ToString();
+                SBackArr += tmpPic + "\t"; 
                 RealCarPictureBox3.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
                 tmpCount++;
 
                 tmpPic = StandForCarName + tmpCount.ToString();
+                SBackArr += tmpPic + "\t"; 
                 RealCarPictureBox4.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
                 tmpCount++;
 
                 tmpPic = StandForCarName + tmpCount.ToString();
+                SBackArr += tmpPic + "\t"; 
                 RealCarPictureBox5.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
                 tmpCount++;
 
                 tmpPic = StandForCarName + tmpCount.ToString();
+                SBackArr += tmpPic + "\t"; 
                 RealCarPictureBox6.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmpPic.ToString());
             }
         }
@@ -197,6 +211,7 @@ namespace Ford_Showroom
         private void BuyButton_Click(object sender, EventArgs e)
         {
             BuyPanel.Visible = true;
+            ProductNameLabel.Text = CarTypeNameLabel.Text;
         }
 
         private void BuyPanelExitButton_Click(object sender, EventArgs e)
@@ -323,6 +338,54 @@ namespace Ford_Showroom
         private void EngineButton6_Click(object sender, EventArgs e)
         {
             EngineTextChange(EngineButton6.Text);
+        }
+
+        private void DatHangLabel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ZoomPic(int pos)
+        {
+            string ahihi = StandForCarName + pos.ToString();
+            Hide();
+            Form5 DarkThemeForm = new Form5(ahihi, pos, StandForCarName);
+            DarkThemeForm.ShowDialog();
+            Show();
+        }
+        private void RealCarPictureBox1_Click(object sender, EventArgs e)
+        {
+            ZoomPic(1);
+        }
+
+        private void RealCarPictureBox2_Click(object sender, EventArgs e)
+        {
+            ZoomPic(2);
+
+        }
+
+        private void RealCarPictureBox3_Click(object sender, EventArgs e)
+        {
+            ZoomPic(3);
+
+        }
+
+        private void RealCarPictureBox4_Click(object sender, EventArgs e)
+        {
+            ZoomPic(4);
+
+        }
+
+        private void RealCarPictureBox5_Click(object sender, EventArgs e)
+        {
+            ZoomPic(5);
+
+        }
+
+        private void RealCarPictureBox6_Click(object sender, EventArgs e)
+        {
+            ZoomPic(6);
+
         }
 
         private void CusNameTextBox_KeyPress(object sender, KeyPressEventArgs e)

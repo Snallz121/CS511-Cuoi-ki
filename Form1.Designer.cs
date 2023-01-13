@@ -128,6 +128,8 @@
             this.EverestLabel.TabIndex = 22;
             this.EverestLabel.Text = "Ford Everest 2023";
             this.EverestLabel.Click += new System.EventHandler(this.EverestLabel_Click);
+            this.EverestLabel.MouseEnter += new System.EventHandler(this.EverestLabel_MouseEnter);
+            this.EverestLabel.MouseLeave += new System.EventHandler(this.EverestLabel_MouseLeave);
             // 
             // EverestPriceLabel
             // 
@@ -160,6 +162,8 @@
             this.ExplorerLabel.TabIndex = 25;
             this.ExplorerLabel.Text = "Ford Explorer 2023";
             this.ExplorerLabel.Click += new System.EventHandler(this.ExplorerLabel_Click);
+            this.ExplorerLabel.MouseEnter += new System.EventHandler(this.ExplorerLabel_MouseEnter);
+            this.ExplorerLabel.MouseLeave += new System.EventHandler(this.ExplorerLabel_MouseLeave);
             // 
             // ExplorerPictureBox
             // 
@@ -351,9 +355,9 @@
             this.HomeLabelButton.ForeColor = System.Drawing.Color.White;
             this.HomeLabelButton.Location = new System.Drawing.Point(223, 35);
             this.HomeLabelButton.Name = "HomeLabelButton";
-            this.HomeLabelButton.Size = new System.Drawing.Size(173, 41);
+            this.HomeLabelButton.Size = new System.Drawing.Size(208, 41);
             this.HomeLabelButton.TabIndex = 0;
-            this.HomeLabelButton.Text = "Trang chủ";
+            this.HomeLabelButton.Text = "Về chúng tôi";
             this.HomeLabelButton.MouseEnter += new System.EventHandler(this.HomeLabelButton_MouseEnter);
             this.HomeLabelButton.MouseLeave += new System.EventHandler(this.HomeLabelButton_MouseLeave);
             // 
