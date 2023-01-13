@@ -69,6 +69,8 @@
             this.BuyPanelExitButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.EmailLabel = new System.Windows.Forms.Label();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.CarTypeFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RealCarPictureBox2)).BeginInit();
@@ -344,6 +346,8 @@
             // BuyPanel
             // 
             this.BuyPanel.BackColor = System.Drawing.Color.RosyBrown;
+            this.BuyPanel.Controls.Add(this.EmailTextBox);
+            this.BuyPanel.Controls.Add(this.EmailLabel);
             this.BuyPanel.Controls.Add(this.ProductNameLabel);
             this.BuyPanel.Controls.Add(this.CusTelTextBox);
             this.BuyPanel.Controls.Add(this.CusAddTextBox);
@@ -355,9 +359,9 @@
             this.BuyPanel.Controls.Add(this.TenKHLabel);
             this.BuyPanel.Controls.Add(this.DatHangLabel);
             this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
-            this.BuyPanel.Location = new System.Drawing.Point(343, 169);
+            this.BuyPanel.Location = new System.Drawing.Point(343, 87);
             this.BuyPanel.Name = "BuyPanel";
-            this.BuyPanel.Size = new System.Drawing.Size(876, 460);
+            this.BuyPanel.Size = new System.Drawing.Size(876, 542);
             this.BuyPanel.TabIndex = 28;
             this.BuyPanel.Visible = false;
             // 
@@ -365,11 +369,12 @@
             // 
             this.ProductNameLabel.AutoSize = true;
             this.ProductNameLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ProductNameLabel.Location = new System.Drawing.Point(359, 283);
+            this.ProductNameLabel.Location = new System.Drawing.Point(359, 345);
             this.ProductNameLabel.Name = "ProductNameLabel";
             this.ProductNameLabel.Size = new System.Drawing.Size(260, 36);
             this.ProductNameLabel.TabIndex = 35;
             this.ProductNameLabel.Text = "ProductNameLabel";
+            this.ProductNameLabel.Click += new System.EventHandler(this.ProductNameLabel_Click);
             // 
             // CusTelTextBox
             // 
@@ -401,18 +406,19 @@
             // 
             // PanelBuyButton
             // 
-            this.PanelBuyButton.Location = new System.Drawing.Point(319, 335);
+            this.PanelBuyButton.Location = new System.Drawing.Point(319, 424);
             this.PanelBuyButton.Name = "PanelBuyButton";
             this.PanelBuyButton.Size = new System.Drawing.Size(262, 87);
             this.PanelBuyButton.TabIndex = 28;
             this.PanelBuyButton.Text = "Đăng kí";
             this.PanelBuyButton.UseVisualStyleBackColor = true;
+            this.PanelBuyButton.Click += new System.EventHandler(this.PanelBuyButton_Click);
             // 
             // MatHangLabel
             // 
             this.MatHangLabel.AutoSize = true;
             this.MatHangLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.MatHangLabel.Location = new System.Drawing.Point(90, 281);
+            this.MatHangLabel.Location = new System.Drawing.Point(90, 345);
             this.MatHangLabel.Name = "MatHangLabel";
             this.MatHangLabel.Size = new System.Drawing.Size(217, 36);
             this.MatHangLabel.TabIndex = 26;
@@ -490,6 +496,24 @@
             this.pictureBox2.Size = new System.Drawing.Size(1578, 229);
             this.pictureBox2.TabIndex = 44;
             this.pictureBox2.TabStop = false;
+            // 
+            // EmailLabel
+            // 
+            this.EmailLabel.AutoSize = true;
+            this.EmailLabel.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.EmailLabel.Location = new System.Drawing.Point(90, 285);
+            this.EmailLabel.Name = "EmailLabel";
+            this.EmailLabel.Size = new System.Drawing.Size(208, 36);
+            this.EmailLabel.TabIndex = 36;
+            this.EmailLabel.Text = "Địa chỉ gmail:";
+            // 
+            // EmailTextBox
+            // 
+            this.EmailTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EmailTextBox.Location = new System.Drawing.Point(359, 281);
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(392, 40);
+            this.EmailTextBox.TabIndex = 37;
             // 
             // Form2
             // 
@@ -589,5 +613,7 @@
         private Label ProductNameLabel;
         private Label label2;
         private PictureBox pictureBox2;
+        private TextBox EmailTextBox;
+        private Label EmailLabel;
     }
 }

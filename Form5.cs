@@ -22,7 +22,6 @@ namespace Ford_Showroom
         public Form5(string SBackG, int count, string name)
         {
             InitializeComponent();
-            MessageBox.Show(SBackG);
             PictureBox.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(SBackG);
             Name = name;
             this.Count = count;
@@ -43,7 +42,6 @@ namespace Ford_Showroom
             if (Count > 6)
                 Count = 1;
             string tmp = Name + Count.ToString();
-            MessageBox.Show(tmp);
             PictureBox.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmp);
 
         }
@@ -54,7 +52,6 @@ namespace Ford_Showroom
             if (Count == 0)
                 Count = 6;
             string tmp = Name + Count.ToString();
-            MessageBox.Show(tmp);
             PictureBox.BackgroundImage = (Bitmap)Properties.Resources.ResourceManager.GetObject(tmp);
         }
     }

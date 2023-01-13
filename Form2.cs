@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using System.Xml.Linq;
+using System.Net.Mail;
+using System.Net;
+using System.Windows.Forms.Design.Behavior;
 
 namespace Ford_Showroom
 {
@@ -385,6 +388,61 @@ namespace Ford_Showroom
         private void RealCarPictureBox6_Click(object sender, EventArgs e)
         {
             ZoomPic(6);
+
+        }
+        string VanMauGmail = @"D:\Project\CS511\Final\CS511-Cuoi-ki\resou\EmailSendingRegard.txt";
+        private void PanelBuyButton_Click(object sender, EventArgs e)
+        {
+            //SmtpClient Client = new SmtpClient()
+            //{
+            //    Host = "smpt.gmail.com",
+            //    Port = 587,
+            //    EnableSsl = true,
+            //    DeliveryMethod = SmtpDeliveryMethod.Network,
+            //    UseDefaultCredentials = false,
+            //    Credentials = new NetworkCredential()
+            //    {
+            //        UserName = "showroomphattaiofficialmail123@gmail.com",
+            //        Password = "cuewrxxixzocdygc"
+            //    }
+            //};
+            ////cjnjnohkdldfqyro
+            //MailAddress FromEmail = new MailAddress("showroomphattaiofficialmail123@gmail.com", "Showroom Phat Tai");
+            //MailAddress ToEmail = new MailAddress(EmailTextBox.Text.Trim(), "Customer");
+            //MailMessage Message = new MailMessage()
+            //{
+            //    From = FromEmail,
+            //    Subject = "Cảm ơn quý khách đã đăng kí báo giá tiền xe",
+            //    Body = File.ReadAllText(VanMauGmail).ToString() + "\n" + "Thông tin quý khách\n______________________________\n" + "Tên khách hàng: " + CusNameTextBox.Text + "\n" + "Địa chỉ: " + CusAddTextBox.Text + "\n" + "Số điện thoại: " + CusTelTextBox.Text + "\n" + "Email: " + EmailTextBox.Text,
+            //};
+            //MessageBox.Show(File.ReadAllText(VanMauGmail).ToString() + "\n" + "Thông tin quý khách\n______________________________\n" + "Tên khách hàng: " + CusNameTextBox.Text + "\n" + "Địa chỉ: " + CusAddTextBox.Text + "\n" + "Số điện thoại: " + CusTelTextBox.Text + "\n" + "Email: " + EmailTextBox.Text);
+            //Message.To.Add(ToEmail);
+
+            //Client.SendCompleted += Client_SendCompleted;
+            //Client.SendMailAsync(Message);
+            //try
+            //{
+            //    Client.Send(Message);
+            //    MessageBox.Show("Sent successfully", "Done");
+            //}
+            //catch(Exception ex)
+            //{
+            //    MessageBox.Show("Something wrong\n" + ex.InnerException.Message, "Error");
+            //}
+        }
+
+        //private void Client_SendCompleted(object sender, AsyncCompletedEventArgs e)
+        //{
+        //    if(e.Error != null)
+        //    {
+        //        MessageBox.Show("Error Happening \n " + e.Error.Message, "Error");
+        //        return;
+        //    }
+        //    MessageBox.Show("Send success", "Done");
+        //}
+
+        private void ProductNameLabel_Click(object sender, EventArgs e)
+        {
 
         }
 
