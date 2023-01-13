@@ -146,6 +146,10 @@ namespace Ford_Showroom
             MessageBox.Show(DataPath1);
             var Engine1 = File.ReadAllText(DataPath1);
             EngineDesTextBox.Text = Engine1;
+            //Setting gia niem yet ban dau
+            string DataPath2 = @"D:\Project\CS511\Final2\CS511-Cuoi-ki\resou\Car\" + FolderName + @"\Inform\Price.txt";
+            var Price = File.ReadAllText(DataPath2);
+            MoneyLabel.Text = Price.Split("\n")[0].Trim() + " VNĐ";
         }
         private void ExitButton_Click(object sender, EventArgs e)
         {

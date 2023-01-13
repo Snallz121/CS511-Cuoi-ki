@@ -69,6 +69,7 @@
             this.TenKHLabel = new System.Windows.Forms.Label();
             this.DatHangLabel = new System.Windows.Forms.Label();
             this.BuyPanelExitButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.CarTypeFormPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -84,7 +85,7 @@
             this.CarTypeFormPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CarTypeFormPictureBox.Location = new System.Drawing.Point(109, 30);
             this.CarTypeFormPictureBox.Name = "CarTypeFormPictureBox";
-            this.CarTypeFormPictureBox.Size = new System.Drawing.Size(578, 570);
+            this.CarTypeFormPictureBox.Size = new System.Drawing.Size(578, 541);
             this.CarTypeFormPictureBox.TabIndex = 0;
             this.CarTypeFormPictureBox.TabStop = false;
             // 
@@ -227,20 +228,20 @@
             // EngineDesTextBox
             // 
             this.EngineDesTextBox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EngineDesTextBox.Location = new System.Drawing.Point(769, 449);
+            this.EngineDesTextBox.Location = new System.Drawing.Point(78, 761);
             this.EngineDesTextBox.Multiline = true;
             this.EngineDesTextBox.Name = "EngineDesTextBox";
             this.EngineDesTextBox.PlaceholderText = "Giu cho cho thong so engine";
             this.EngineDesTextBox.ReadOnly = true;
             this.EngineDesTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.EngineDesTextBox.Size = new System.Drawing.Size(673, 383);
+            this.EngineDesTextBox.Size = new System.Drawing.Size(1462, 383);
             this.EngineDesTextBox.TabIndex = 17;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(521, 1047);
+            this.label1.Location = new System.Drawing.Point(504, 1362);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(645, 63);
             this.label1.TabIndex = 18;
@@ -248,7 +249,7 @@
             // 
             // BuyButton
             // 
-            this.BuyButton.Location = new System.Drawing.Point(247, 642);
+            this.BuyButton.Location = new System.Drawing.Point(785, 468);
             this.BuyButton.Name = "BuyButton";
             this.BuyButton.Size = new System.Drawing.Size(262, 87);
             this.BuyButton.TabIndex = 19;
@@ -271,7 +272,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox2.Location = new System.Drawing.Point(85, 1138);
+            this.pictureBox2.Location = new System.Drawing.Point(68, 1453);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(473, 502);
             this.pictureBox2.TabIndex = 22;
@@ -279,7 +280,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(574, 1138);
+            this.pictureBox3.Location = new System.Drawing.Point(557, 1453);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(473, 502);
             this.pictureBox3.TabIndex = 23;
@@ -287,7 +288,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(1063, 1138);
+            this.pictureBox4.Location = new System.Drawing.Point(1046, 1453);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(473, 502);
             this.pictureBox4.TabIndex = 24;
@@ -296,7 +297,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox5.Location = new System.Drawing.Point(1063, 1674);
+            this.pictureBox5.Location = new System.Drawing.Point(1046, 1989);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(473, 502);
             this.pictureBox5.TabIndex = 27;
@@ -304,7 +305,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(574, 1674);
+            this.pictureBox6.Location = new System.Drawing.Point(557, 1989);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(473, 502);
             this.pictureBox6.TabIndex = 26;
@@ -312,7 +313,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(85, 1674);
+            this.pictureBox7.Location = new System.Drawing.Point(68, 1989);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(473, 502);
             this.pictureBox7.TabIndex = 25;
@@ -334,7 +335,7 @@
             this.BuyPanel.Controls.Add(this.TenKHLabel);
             this.BuyPanel.Controls.Add(this.DatHangLabel);
             this.BuyPanel.Controls.Add(this.BuyPanelExitButton);
-            this.BuyPanel.Location = new System.Drawing.Point(380, 500);
+            this.BuyPanel.Location = new System.Drawing.Point(334, 185);
             this.BuyPanel.Name = "BuyPanel";
             this.BuyPanel.Size = new System.Drawing.Size(876, 510);
             this.BuyPanel.TabIndex = 28;
@@ -469,6 +470,16 @@
             this.BuyPanelExitButton.UseVisualStyleBackColor = false;
             this.BuyPanelExitButton.Click += new System.EventHandler(this.BuyPanelExitButton_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(486, 674);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(645, 63);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "Hình ảnh xe trong thực tế";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -477,6 +488,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1578, 844);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.BuyPanel);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox6);
@@ -564,5 +576,6 @@
         private TextBox CusAddTextBox;
         private TextBox CusNameTextBox;
         private Label ProductNameLabel;
+        private Label label2;
     }
 }
